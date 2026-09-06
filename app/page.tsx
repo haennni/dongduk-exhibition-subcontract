@@ -50,6 +50,11 @@ export default function Home() {
                 height="1240"
               />
             </div>
+            <div className="hero-sparkles" aria-hidden="true">
+              {Array.from({ length: 9 }, (_, index) => (
+                <span key={index} />
+              ))}
+            </div>
             <div className="hero-topline">
               <span>47TH GRADUATION EXHIBITION</span>
               <span>INTERIOR DESIGN, DONGDUK</span>
@@ -64,13 +69,13 @@ export default function Home() {
                   height="240"
                 />
               </h1>
-            <img
-              className="hero-description-image"
-              src="/assets/subtitle.png"
-              alt="Dongduk Women's University 47th Graduate Exhibition, 제47회 동덕여자대학교 실내디자인전공 졸업전시회"
-              width="848"
-              height="244"
-            />
+              <img
+                className="hero-description-image"
+                src="/assets/subtitle.png"
+                alt="Dongduk Women's University 47th Graduate Exhibition, 제47회 동덕여자대학교 실내디자인전공 졸업전시회"
+                width="848"
+                height="244"
+              />
             </div>
             <div className="hero-bottom">
               <p>
