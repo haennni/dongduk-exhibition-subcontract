@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1240" fill="none">
+<title>Dot to Dot — transparent orbit trails</title>
+<desc>White orbital lines with tracing light and moving points. Transparent background.</desc>
+<style>.track{opacity:.8}.moving{opacity:.9}@media(prefers-reduced-motion:reduce){.moving{display:none}.track{opacity:.7}}</style>
+<path class="track" d="M 82 700 C 124 440 270 244 462 146" stroke="white" stroke-width="2.0" stroke-linecap="round"/><path class="track" d="M 1652 -80 C 1360 42 1408 594 1780 594" stroke="white" stroke-width="1.15" stroke-linecap="round"/><path class="track" d="M 1710 420 C 1620 784 1510 1020 1160 1160" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="9 14"/><path class="track" d="M -180 1010 C 110 830 414 1040 462 1390" stroke="white" stroke-width="1.0" stroke-linecap="round"/><circle cx="82" cy="700" r="7" fill="white"/><circle cx="1505" cy="390" r="5" fill="white"/><circle cx="160" cy="812" r="3" fill="white"/><circle cx="260" cy="876" r="6" fill="white"/></svg>
