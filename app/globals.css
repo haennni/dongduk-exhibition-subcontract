@@ -24,3 +24,6 @@
 #about{padding-top:32px}
 #about .about-grid{margin-top:32px;align-items:start}
 @media(max-width:800px){#about{padding-top:24px}#about .about-grid{margin-top:24px}}
+/* A short breathing space between the fading hero and the poster. */
+.hero-stage{padding-bottom:clamp(40px,10svh,120px)}
+@media(max-width:800px){.hero-stage{padding-bottom:clamp(32px,8svh,64px)}}
