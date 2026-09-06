@@ -11,7 +11,7 @@ export default function Home(){
   const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
   const update=()=>{frame=0;if(!hero.current||!stage.current)return;
    const rect=stage.current.getBoundingClientRect();
-   const distance=Math.max(stage.current.offsetHeight-hero.current.offsetHeight,1);
+   const distance=Math.max(hero.current.offsetHeight * 0.9,1);
    const progress=motion.matches?0:Math.max(0,Math.min(-rect.top/distance,1));
    const eased=progress*progress*(3-2*progress);
    hero.current.style.setProperty('--exit',String(eased));

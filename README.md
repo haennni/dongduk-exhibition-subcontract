@@ -44,4 +44,4 @@ npx tsc --noEmit
 
 ## 메인 모션 업데이트
 
-`public/assets/orbits-animated.svg`는 배경 없는 SVG 애니메이션입니다. 궤도마다 18–26초 주기로 선과 점이 반복 이동합니다. `orbits-transparent.svg`는 정지 이미지입니다. CSS의 `.hero-stage` 높이로 스크롤 길이를, `--exit`를 사용하는 scale·blur 값으로 확대와 흐림 정도를 조절할 수 있습니다. 모션 감소 설정에서는 고정 스크롤 구간과 반복 이동을 해제합니다.
+`public/assets/orbits-animated.svg`는 배경 없는 SVG 애니메이션입니다. 궤도마다 18–26초 주기로 선과 점이 반복 이동합니다. `orbits-transparent.svg`는 정지 이미지입니다. 메인 화면은 일반 스크롤 흐름을 사용해 포스터 영역으로 바로 이어집니다. `--exit`를 사용하는 scale·blur 값으로 확대와 흐림 정도를 조절할 수 있습니다. 모션 감소 설정에서는 고정 스크롤 구간과 반복 이동을 해제합니다.
