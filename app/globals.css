@@ -17,3 +17,5 @@
 @media(prefers-reduced-motion:reduce){.hero-stage{height:auto;min-height:0}.hero-stage .hero{position:relative}.hero-stage .hero-title,.orbit-scene{transform:none!important;filter:none!important;opacity:1!important}}
 .hero-stage .hero-title{animation:none}
 .hero-stage .hero-title h1{animation:arrive 1.3s both}
+
+.about-art.poster-video{aspect-ratio:auto;max-height:none;background:transparent;overflow:hidden}.poster-video video{display:block;width:100%;height:auto;object-fit:contain}
