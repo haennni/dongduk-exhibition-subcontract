@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { X, ArrowUpRight } from 'lucide-react';
 import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { designers, projects } from '@/lib/exhibition';
@@ -111,7 +112,7 @@ export default function Designers() {
           })}
         </div>
 
-        {selectedDesigner && (
+        {selectedDesigner && typeof document !== 'undefined' && createPortal((
           <div className="designer-modal" role="dialog" aria-modal="true" aria-labelledby="designer-modal-name">
             <button className="designer-modal-backdrop" type="button" onClick={() => setSelectedName(null)} aria-label="팝업 닫기" />
             <div className="designer-modal-panel">
@@ -152,7 +153,7 @@ export default function Designers() {
               </div>
             </div>
           </div>
-        )}
+        ), document.body)}
 
         <div className="designer-end">
           <p>20개의 점이 만나 완성하는 하나의 전시.</p>
