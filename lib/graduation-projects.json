@@ -20,45 +20,42 @@
         "description": "AI 스마트 제어 시스템으로 투명한 패널과 다기능 스마트 창문 등을 관리하여 에너지를 절감해 스스로 에너지를 생산하는 신재생 주거형태이다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/1.webp",
+        "image": "/assets/projects/eco-blue-node/2.webp",
+        "additionalImages": [
+          "/assets/projects/eco-blue-node/3.webp"
+        ],
         "title": "ALL DAY DINING",
         "description": "여수의 양식장 형태를 착안하여 필요한 채소를 직접 수확할 수 있는 스마트팜을 통합하였다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/2.webp",
+        "image": "/assets/projects/eco-blue-node/4.webp",
         "title": "COMMUNITY ROOM",
         "description": "입주민과 지인이 함께 어울리며 휴식을 나누는 다목적 커뮤니티 공유 공간이다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/3.webp",
+        "image": "/assets/projects/eco-blue-node/5.webp",
         "title": "SPA",
         "description": "선박장 디자인에서 착안하여 스파 공간을 조성하였으며, 마사지 등 휴식 프로그램을 통합한 웰니스 거점을 마련하였다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/4.webp",
+        "image": "/assets/projects/eco-blue-node/6.webp",
         "title": "WATER WALL",
         "description": "정화된 스파 사용수를 1층으로 낙하시켜, 그 낙차를 활용해 소수력 에너지를 생산한다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/5.webp",
+        "image": "/assets/projects/eco-blue-node/7.webp",
         "title": "LIBRARY",
         "description": "풍력 터빈을 디자인 요소로 활용해 내부에서도 재생에너지 생산 과정을 체감할 수 있는 공간이다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/6.webp",
+        "image": "/assets/projects/eco-blue-node/8.webp",
         "title": "PERGOLA",
         "description": "주거가 모여있는 군집 중앙에 배치된 공용공간으로, 스마트팜과 태양광 패널로 연결된 테이블을 배치하여 스마트기기를 충전할 수 있다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/7.webp",
+        "image": "/assets/projects/eco-blue-node/9.webp",
         "title": "태양광 패널 아트 필름",
         "description": "모르포 나비 날개 표면의 3차원 광학 구조를 응용해 개발된 태양광 필름으로, 기존 태양광 패널이 건축물 디자인을 해치던 단점을 보완하였다."
-      },
-      {
-        "image": "/assets/projects/eco-blue-node/8.webp"
-      },
-      {
-        "image": "/assets/projects/eco-blue-node/9.webp"
       }
     ]
   },
@@ -149,52 +146,49 @@
         "description": "밤이 되면 교육동을 중심으로 배움의 빛이 가장 선명하게 드러나며, 반투명 외피와 솔리드 면의 대비를 통해 빛의 투과와 차폐를 조절해 과거 야학의 등불을 오늘의 비산동에 다시 이어가는 상징적 파사드를 형성한다."
       },
       {
-        "image": "/assets/projects/second-light/1.webp",
+        "image": "/assets/projects/second-light/2.webp",
         "title": "BOOK CAFE",
         "description": "보이드를 중심으로 좌석과 큐레이팅 서가를 배치해 독서와 휴식, 탐색과 교류가 자유롭게 이어지는 열린 북카페이다."
       },
       {
-        "image": "/assets/projects/second-light/2.webp",
+        "image": "/assets/projects/second-light/3.webp",
         "title": "MEDIA SPACE",
         "description": "3층으로 이어지는 확장 계단과 미디어월을 중심으로 이동과 체류, 학습이 유연하게 공존하는 복합 학습 공간이다."
       },
       {
-        "image": "/assets/projects/second-light/3.webp",
+        "image": "/assets/projects/second-light/4.webp",
         "title": "STUDY ZONE",
         "description": "방음 커튼으로 공간의 크기를 자유롭게 조절하고, 교차하는 커튼 레일을 통해 ‘엮임’의 개념을 시각화한 소규모 스터디 공간이다."
       },
       {
-        "image": "/assets/projects/second-light/4.webp",
+        "image": "/assets/projects/second-light/5.webp",
         "title": "MAKER SPACE",
         "description": "주민이 의류 수거와 섬유 분류 과정에 직접 참여하고, 분류된 옷감을 교육 재료로 활용하며 함께 배우고 가르치는 참여형 공방이다."
       },
       {
-        "image": "/assets/projects/second-light/5.webp",
+        "image": "/assets/projects/second-light/6.webp",
         "title": "GOODS SHOP",
         "description": "대구 지역 작가들의 아카이브를 열람하고, 창작 결과물을 굿즈로 경험하며 소유할 수 있는 지역 문화 콘텐츠 공간이다."
       },
       {
-        "image": "/assets/projects/second-light/6.webp",
+        "image": "/assets/projects/second-light/7.webp",
         "title": "LIBRARY",
         "description": "섬유산업과 야학의 지역적 기억을 바탕으로 전시와 열람, 학습과 교류가 자연스럽게 이어지는 프로젝트의 핵심 공간이다."
       },
       {
-        "image": "/assets/projects/second-light/7.webp",
+        "image": "/assets/projects/second-light/8.webp",
         "title": "EXHIBITION CORE",
         "description": "대구 섬유산업과 야학의 기록을 섬유 스와치와 아카이브 자료를 통해 역사와 물성을 함께 경험하도록 구성한 전시 공간이다."
       },
       {
-        "image": "/assets/projects/second-light/8.webp",
+        "image": "/assets/projects/second-light/9.webp",
         "title": "BOOK CURATION",
         "description": "서가 사이를 이동하며 오디오 콘텐츠와 추천 도서를 따라 자신만의 방식으로 책을 발견하고 탐색하는 큐레이션 공간이다."
       },
       {
-        "image": "/assets/projects/second-light/9.webp",
+        "image": "/assets/projects/second-light/10.webp",
         "title": "FACADE · DAYTIME",
         "description": "배움이 공간 밖으로 확장되듯 점차 펼쳐지는 매스를 구성하고, 야외 슬로프와 녹지 공간을 연결해 자연 속에서 머물고 교류할 수 있는 열린 파사드로 계획하였다."
-      },
-      {
-        "image": "/assets/projects/second-light/10.webp"
       }
     ]
   },
@@ -337,52 +331,49 @@
         "description": "통제영 12공방의 전통 공예를 중심으로 장인의 작업과 방문객의 체험이 자연스럽게 이어지는 새로운 체류 경험을 제안한다."
       },
       {
-        "image": "/assets/projects/didim/1.webp",
+        "image": "/assets/projects/didim/2.webp",
         "title": "체크인 리셉션",
         "description": "프라이빗 체크인 방식으로 머무름을 준비하며 대지의 고저차를 자연스럽게 경험하도록 설계하였다."
       },
       {
-        "image": "/assets/projects/didim/2.webp",
+        "image": "/assets/projects/didim/3.webp",
         "title": "로비",
         "description": "대지의 고도와 계단의 흐름을 공간에 이어내고 창을 통해 유입되는 조경과 자연스럽게 어우러지도록 구성하였다."
       },
       {
-        "image": "/assets/projects/didim/3.webp",
+        "image": "/assets/projects/didim/4.webp",
         "title": "라운지",
         "description": "통제영 12공방의 공예품에서 발견한 형태와 구조를 공간의 디자인 언어로 재해석하였다."
       },
       {
-        "image": "/assets/projects/didim/4.webp",
+        "image": "/assets/projects/didim/5.webp",
         "title": "라운지·공방 거리 통로",
         "description": "자연 풍경이 흐르는 경로를 통해 방문객의 동선을 부드럽게 연결하였다."
       },
       {
-        "image": "/assets/projects/didim/5.webp",
+        "image": "/assets/projects/didim/6.webp",
         "title": "공방 거리",
         "description": "장인과 이수자의 작업실이자 방문객이 제작 과정을 관찰하고 배울 수 있는 개방형 교육 공간이다."
       },
       {
-        "image": "/assets/projects/didim/6.webp",
+        "image": "/assets/projects/didim/7.webp",
         "title": "공방 거리-갓 공방 내부",
         "description": "통영 갓을 제작하는 공방으로 방문객은 장인의 작업을 보며 제작 방식을 직접 학습한다."
       },
       {
-        "image": "/assets/projects/didim/7.webp",
+        "image": "/assets/projects/didim/8.webp",
         "title": "쇼룸 티하우스",
         "description": "공예품을 가까이에서 감상하고 차를 마시며 일상 속에서 경험하는 쇼룸 겸 티하우스이다."
       },
       {
-        "image": "/assets/projects/didim/8.webp",
+        "image": "/assets/projects/didim/9.webp",
         "title": "공예 스테이",
         "description": "자연과 건축이 어우러진 풍경을 바라보며 여유롭게 머무르는 외부 경관 공간이다."
       },
       {
-        "image": "/assets/projects/didim/9.webp",
+        "image": "/assets/projects/didim/10.webp",
         "title": "공예 스테이 내부",
         "description": "공예품을 감상 대상에서 실제로 사용하고 체험하는 생활 속 요소로 확장한다."
-      },
-      {
-        "image": "/assets/projects/didim/10.webp"
       }
     ]
   },
@@ -406,50 +397,47 @@
         "description": "자연의 유연한 궤적을 따라 걸으며 일상의 긴장을 내려놓고 온전히 나에게 몰입하는 도피처다."
       },
       {
-        "image": "/assets/projects/sum-graduation/1.webp",
+        "image": "/assets/projects/sum-graduation/2.webp",
         "title": "B1 로비",
         "description": "거친 돌과 은은한 빛으로 깊은 안식처에 들어섰음을 암시하며 따뜻한 위로를 건넨다."
       },
       {
-        "image": "/assets/projects/sum-graduation/2.webp",
+        "image": "/assets/projects/sum-graduation/3.webp",
         "title": "다실",
         "description": "차를 마시며 일상의 감각을 이완하고 빛과 차의 향기에 집중해 내면을 마주하는 공간이다."
       },
       {
-        "image": "/assets/projects/sum-graduation/3.webp",
+        "image": "/assets/projects/sum-graduation/4.webp",
         "title": "명상실",
         "description": "열주가 늘어선 복도를 따라 내면으로 침잠하고 빛을 응시하며 마음을 환기한다."
       },
       {
-        "image": "/assets/projects/sum-graduation/4.webp",
+        "image": "/assets/projects/sum-graduation/5.webp",
         "title": "식당",
         "description": "맞춤형 식단과 자연 요소를 통해 지친 내면을 돌보고 회복하는 공간이다."
       },
       {
-        "image": "/assets/projects/sum-graduation/5.webp",
+        "image": "/assets/projects/sum-graduation/6.webp",
         "title": "단체 상담실",
         "description": "서로의 내면을 나누며 타인과 깊이 연결되고 감정을 환기하는 공감의 공간이다."
       },
       {
-        "image": "/assets/projects/sum-graduation/6.webp",
+        "image": "/assets/projects/sum-graduation/7.webp",
         "title": "객실",
         "description": "타인과의 대면을 자연스럽게 차단하고 깊은 휴식과 회복을 보장하는 안식처다."
       },
       {
-        "image": "/assets/projects/sum-graduation/7.webp",
+        "image": "/assets/projects/sum-graduation/8.webp",
         "title": "1F 아카이브",
         "description": "곡선형 책장과 자연을 통해 자유로운 이동을 유도하고 일상의 감각을 깨운다."
       },
       {
-        "image": "/assets/projects/sum-graduation/8.webp",
+        "image": "/assets/projects/sum-graduation/9.webp",
         "title": "2F 광장",
-        "description": "개방형 보이드와 수공간이 결합되어 억눌린 마음을 비우고 해방감을 느끼는 숨터다."
-      },
-      {
-        "image": "/assets/projects/sum-graduation/9.webp"
-      },
-      {
-        "image": "/assets/projects/sum-graduation/10.webp"
+        "description": "개방형 보이드와 수공간이 결합되어 억눌린 마음을 비우고 해방감을 느끼는 숨터다.",
+        "additionalImages": [
+          "/assets/projects/sum-graduation/10.webp"
+        ]
       }
     ]
   },
@@ -468,54 +456,42 @@
     "sections": [
       {
         "image": "/assets/projects/on-gil/main.webp",
-        "title": "온(溫)길",
         "description": "닫힌 시설에서 벗어나 세대와 세대가 어우러져 함께하는 따뜻한 돌봄센터이다."
       },
       {
-        "image": "/assets/projects/on-gil/1.webp",
-        "title": "시니어 병동 로비",
+        "image": "/assets/projects/on-gil/2.webp",
         "description": "주황색을 활용한 휠체어 친화적인 공간으로 다양한 교류 및 단체 활동이 가능하다."
       },
       {
-        "image": "/assets/projects/on-gil/2.webp",
-        "title": "아동 병동 로비",
+        "image": "/assets/projects/on-gil/3.webp",
         "description": "활동량이 많은 아동을 고려한 푹신하고 편안한 가구로 부상을 방지했다."
       },
       {
-        "image": "/assets/projects/on-gil/3.webp",
-        "title": "도서관",
+        "image": "/assets/projects/on-gil/4.webp",
         "description": "외부인에게도 개방되어 함께 책을 읽거나 작은 세미나를 진행할 수 있다."
       },
       {
-        "image": "/assets/projects/on-gil/4.webp",
-        "title": "카페",
+        "image": "/assets/projects/on-gil/5.webp",
         "description": "인근 주민에게 개방되며 신체적 장애가 있는 직원과 손님을 위해 유니버설 디자인을 적용했다."
       },
       {
-        "image": "/assets/projects/on-gil/5.webp",
-        "title": "개인 호실",
+        "image": "/assets/projects/on-gil/6.webp",
         "description": "사생활과 휠체어 이동 반경, 낙상사고를 고려해 여러 공간과 둥근 가구로 구성했다."
       },
       {
-        "image": "/assets/projects/on-gil/6.webp",
-        "title": "공유주방",
+        "image": "/assets/projects/on-gil/7.webp",
         "description": "아동과 노인이 함께 요리하고 교류하며 가족의 정과 일상의 역할을 회복한다."
       },
       {
-        "image": "/assets/projects/on-gil/7.webp",
-        "title": "공공스파",
+        "image": "/assets/projects/on-gil/8.webp",
         "description": "휠체어 이용객도 편하게 사용할 수 있는 공공스파다."
       },
       {
-        "image": "/assets/projects/on-gil/8.webp",
-        "title": "중정",
-        "description": "자연스러운 교류가 일어나는 만남의 장소이자 다른 건물로 이어지는 유기적인 보행 트랙이다."
-      },
-      {
-        "image": "/assets/projects/on-gil/9.webp"
-      },
-      {
-        "image": "/assets/projects/on-gil/10.webp"
+        "image": "/assets/projects/on-gil/9.webp",
+        "description": "자연스러운 교류가 일어나는 만남의 장소이자 다른 건물로 이어지는 유기적인 보행 트랙이다.",
+        "additionalImages": [
+          "/assets/projects/on-gil/10.webp"
+        ]
       }
     ]
   }
