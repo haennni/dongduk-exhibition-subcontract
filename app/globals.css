@@ -1417,6 +1417,11 @@ footer a {
   background: transparent;
   overflow: hidden;
 }
+.project-gallery-visual-stacked {
+  display: grid;
+  gap: clamp(14px, 1.8vw, 24px);
+  overflow: visible;
+}
 .project-gallery-item img {
   display: block;
   width: 100%;

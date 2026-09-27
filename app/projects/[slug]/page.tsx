@@ -9,6 +9,7 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
   const p=projects.find(project=>project.id===slug);
   if(!p)notFound();
   const category=categories.find(c=>c.id===p.category)!;
+  const galleryImageCount=p.sections.reduce((count,section)=>count+1+(section.additionalImages?.length??0),0);
 
   return <>
     <Header/>
@@ -47,11 +48,14 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
         {p.sections.length>0&&<div className="project-gallery">
           <div className="project-gallery-heading" data-reveal="line">
             <span>PROJECT SCENES</span>
-            <span>{String(p.sections.length).padStart(2,'0')} IMAGES</span>
+            <span>{String(galleryImageCount).padStart(2,'0')} IMAGES</span>
           </div>
           {p.sections.map((section,index)=><figure className="project-gallery-item" data-reveal key={`${section.image}-${index}`}>
-            <div className="project-gallery-visual">
+            <div className={`project-gallery-visual${section.additionalImages?.length ? ' project-gallery-visual-stacked' : ''}`}>
               <img src={section.image} alt={section.title?`${p.title} — ${section.title}`:`${p.title} 공간 이미지 ${index+1}`} loading="lazy" decoding="async"/>
+              {section.additionalImages?.map((image, imageIndex) => (
+                <img src={image} alt={section.title?`${p.title} — ${section.title} ${imageIndex+2}`:`${p.title} 공간 이미지 ${index+1}-${imageIndex+2}`} loading="lazy" decoding="async" key={image}/>
+              ))}
             </div>
             {(section.title||section.description)&&<figcaption>
               {section.title&&<h3>{section.title}</h3>}

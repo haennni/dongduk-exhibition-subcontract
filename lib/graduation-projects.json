@@ -286,11 +286,6 @@
         "description": "자연광과 식재가 스며드는 로비는 사람들이 잠시 머물고 서로 마주치는 열린 공간이다. 빛을 받아 에너지를 만드는 광합성처럼, 일과 휴식, 사람과 사람의 관계가 자연스럽게 이어진다."
       },
       {
-        "image": "/assets/projects/photosynthesis/1.webp",
-        "title": "카페 공간",
-        "description": "로비에서 이어지는 카페는 잠시 머무르며 감각을 전환하는 공간이다. 빛, 향, 풍경, 짧은 대화가 겹쳐지며 사용자는 긴장을 낮추고 다음 업무 흐름으로 자연스럽게 넘어가게 된다."
-      },
-      {
         "image": "/assets/projects/photosynthesis/2.webp",
         "title": "몰입실",
         "description": "안정적이고 정제된 환경 속에서 개인 작업과 몰입이 이루어지는 공간이다. 자연광과 외부 풍경은 남겨 두되 천장과 벽, 동선의 밀도를 조절해 시선이 분산되지 않도록 계획하였다."
@@ -302,13 +297,11 @@
       },
       {
         "image": "/assets/projects/photosynthesis/4.webp",
+        "additionalImages": [
+          "/assets/projects/photosynthesis/5.webp"
+        ],
         "title": "공유주방",
         "description": "중앙의 오픈 키친을 중심으로 조리와 대화, 머무름이 자연스럽게 겹쳐지는 커뮤니티 공간이다."
-      },
-      {
-        "image": "/assets/projects/photosynthesis/5.webp",
-        "title": "야외 정원",
-        "description": "강연·독서 모임·워크숍·소규모 공연 등 다양한 프로그램이 열리는 야외 커뮤니티 공간이다."
       },
       {
         "image": "/assets/projects/photosynthesis/6.webp",
