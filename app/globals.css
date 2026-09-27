@@ -1724,6 +1724,35 @@ body.modal-open {
   transform-origin: left center;
   animation: designerInfoUnfold 0.62s 0.68s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+.designer-modal-info::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 8%;
+  right: -235px;
+  width: 430px;
+  aspect-ratio: 1;
+  border: 1px solid #88aee02e;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.designer-modal-info::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  right: 54px;
+  bottom: 56px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #5f91d5;
+  box-shadow: 0 0 0 10px #6da0e317, 0 0 30px #6da0e34d;
+  pointer-events: none;
+}
+.designer-modal-info > * {
+  position: relative;
+  z-index: 1;
+}
 .designer-modal-kicker {
   margin: 0 0 28px;
   color: #6680a3;
@@ -1747,6 +1776,7 @@ body.modal-open {
   font-size: 14px;
 }
 .designer-modal-projects {
+  counter-reset: designer-project;
   margin-top: 38px;
   animation: designerInfo 0.58s 1.12s ease both;
 }
@@ -1760,9 +1790,10 @@ body.modal-open {
   position: relative;
   display: grid;
   gap: 7px;
+  counter-increment: designer-project;
   padding: 19px 44px 19px 0;
   border-bottom: 1px solid #ccd6e3;
-  transition: padding-left 0.4s, color 0.3s;
+  transition: padding-left 0.4s, color 0.3s, background 0.35s;
 }
 .designer-modal-projects a::before {
   content: '';
@@ -1776,9 +1807,14 @@ body.modal-open {
   transform-origin: left;
   transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.designer-modal-projects a:hover { padding-left: 9px; color: #285fa4; }
+.designer-modal-projects a:hover { padding-left: 9px; color: #285fa4; background: #eaf2fc73; }
 .designer-modal-projects a:hover::before { transform: scaleX(1); }
 .designer-modal-projects small { color: #7b8ba1; font-size: 9px; }
+.designer-modal-projects small::before {
+  content: '0' counter(designer-project) '  ·  ';
+  color: #4e80c3;
+  letter-spacing: .08em;
+}
 .designer-modal-projects strong { font-size: 21px; font-weight: 500; }
 .designer-modal-projects span { overflow: hidden; color: #73839a; font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
 .designer-modal-projects svg { position: absolute; right: 4px; top: 50%; width: 18px; transform: translateY(-50%); transition: transform 0.35s; }
