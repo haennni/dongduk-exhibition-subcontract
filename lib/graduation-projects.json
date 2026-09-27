@@ -434,10 +434,10 @@
       {
         "image": "/assets/projects/sum-graduation/9.webp",
         "title": "2F 광장",
-        "description": "개방형 보이드와 수공간이 결합되어 억눌린 마음을 비우고 해방감을 느끼는 숨터다.",
-        "additionalImages": [
-          "/assets/projects/sum-graduation/10.webp"
-        ]
+        "description": "개방형 보이드와 수공간이 결합되어 억눌린 마음을 비우고 해방감을 느끼는 숨터다."
+      },
+      {
+        "image": "/assets/projects/sum-graduation/10.webp"
       }
     ]
   },
