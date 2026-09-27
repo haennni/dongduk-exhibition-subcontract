@@ -49,6 +49,20 @@ export default function Home() {
                 width="2000"
                 height="1240"
               />
+              <img
+                className="circular-orbits"
+                src="/assets/orbital-systems.svg"
+                alt=""
+                width="2000"
+                height="1240"
+              />
+              <img
+                className="circular-orbits circular-orbits-secondary"
+                src="/assets/orbital-systems.svg"
+                alt=""
+                width="2000"
+                height="1240"
+              />
             </div>
             <div className="hero-sparkles" aria-hidden="true">
               {Array.from({ length: 9 }, (_, index) => (
@@ -63,30 +77,29 @@ export default function Home() {
               <p className="eyebrow">20 POINTS. INFINITE CONNECTIONS.</p>
               <h1 id="hero-title">
                 <img
-                  src="/assets/wordmark.png"
+                  className="hero-main-image"
+                  src="/assets/main_image.png"
                   alt="Dot to Dot"
-                  width="1457"
-                  height="240"
+                  width="1949"
+                  height="2896"
                 />
               </h1>
-              <img
-                className="hero-description-image"
-                src="/assets/subtitle.png"
-                alt="Dongduk Women's University 47th Graduate Exhibition, 제47회 동덕여자대학교 실내디자인전공 졸업전시회"
-                width="848"
-                height="244"
-              />
             </div>
             <div className="hero-bottom">
-              <p>
-                제47회 동덕여자대학교
-                <br />
-                실내디자인전공 졸업전시회
-              </p>
-              <a className="scroll-link" href="#about">
-                <span>SCROLL TO CONNECT</span>
-                <span className="down-arrow">↓</span>
-              </a>
+              <span className="hero-bottom-spacer" aria-hidden="true"/>
+              <div className="hero-center-stack">
+                <img
+                  className="hero-description-image"
+                  src="/assets/subtitle.png"
+                  alt="Dongduk Women's University 47th Graduate Exhibition, 제47회 동덕여자대학교 실내디자인전공 졸업전시회"
+                  width="848"
+                  height="244"
+                />
+                <a className="scroll-link" href="#about">
+                  <span>SCROLL TO CONNECT</span>
+                  <span className="down-arrow">↓</span>
+                </a>
+              </div>
               <p className="hero-date">
                 2026. 10. 08 — 10. 18
                 <br />
@@ -97,12 +110,12 @@ export default function Home() {
           </section>
         </div>
         <section id="about" className="about section">
-          <div className="section-label">
+          <div className="section-label" data-reveal="line">
             <span>01 / THE EXHIBITION</span>
             <span>점에서 선으로, 선에서 공간으로</span>
           </div>
-          <div className="about-grid" data-reveal>
-            <div className="about-art poster-video">
+          <div className="about-grid">
+            <div className="about-art poster-video" data-reveal="left">
               <video
                 autoPlay
                 muted
@@ -117,7 +130,7 @@ export default function Home() {
                 <a href="/assets/poster-animation.mp4">포스터 영상 보기</a>
               </video>
             </div>
-            <div className="about-copy">
+            <div className="about-copy" data-reveal="right">
               <p className="eyebrow blue">DOT TO DOT</p>
               <h2>
                 하나의 점에서,
@@ -145,15 +158,43 @@ export default function Home() {
           </div>
         </section>
         <section id="visit" className="visit section">
-          <p className="eyebrow">02 / VISIT THE EXHIBITION</p>
-          <h2>
-            Meet at the next dot<span>.</span>
-          </h2>
-          <div className="visit-grid">
-            <p className="visit-dates">
-              10.08 <span>—</span> 10.18<small>2026 · THURSDAY — SUNDAY</small>
-            </p>
-            <div>
+          <div className="section-label visit-label" data-reveal="line">
+            <span>02 / VISIT THE EXHIBITION</span>
+          </div>
+          <h2 data-reveal="up">INFORMATION</h2>
+          <p className="visit-intro" data-reveal="up">동덕여자대학교 제47회 실내디자인전공 졸업전시</p>
+          <div className="visit-information">
+            <div className="floor-plan-stack">
+              <figure className="floor-plan-card" data-reveal="up">
+                <figcaption className="floor-plan-heading">
+                  <span className="floor-plan-number">01</span>
+                  <strong>1F</strong>
+                  <span className="floor-plan-name">FIRST FLOOR</span>
+                </figcaption>
+                <img
+                  src="/assets/information-1f.png"
+                  alt="디자인 허브 1층 인포데스크와 제1 전시장 안내도"
+                  loading="lazy"
+                />
+              </figure>
+              <figure className="floor-plan-card" data-reveal="up">
+                <figcaption className="floor-plan-heading">
+                  <span className="floor-plan-number">02</span>
+                  <strong>2F</strong>
+                  <span className="floor-plan-name">SECOND FLOOR</span>
+                </figcaption>
+                <img
+                  src="/assets/information-2f.png"
+                  alt="디자인 허브 2층 전시홀과 제2 전시장 안내도"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+            <div className="visit-details" data-reveal="right">
+              <p className="visit-dates">
+                10.08 <span>—</span> 10.18
+                <small>2026 · THURSDAY — SUNDAY</small>
+              </p>
               <h3>동덕여자대학교 디자인 허브</h3>
               <p>서울 강남구 삼성로 762 · 1F, 2F</p>
               <p>
@@ -172,35 +213,15 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="section floor-section" data-reveal>
-          <div className="section-label">
-            <span>03 / INFORMATION</span>
-            <span>DESIGN HUB · 1F & 2F</span>
-          </div>
-          <div className="floor-heading">
-            <h2>공간을 만나는 방법</h2>
-            <p>
-              1F · 인포데스크 / 제1 전시장
-              <br />
-              2F · 전시홀 / 제2 전시장
-            </p>
-          </div>
-          <img
-            src="/assets/floor-plan.png"
-            alt="디자인 허브 1층과 2층 전시장, 인포데스크, 엘리베이터와 계단 위치를 표시한 안내도"
-            className="floor-plan"
-            loading="lazy"
-          />
-        </section>
-        <section className="section participants" data-reveal>
-          <div className="section-label">
-            <span>04 / PARTICIPANTS</span>
+        <section className="section participants">
+          <div className="section-label" data-reveal="line">
+            <span>03 / PARTICIPANTS</span>
             <span>20 DOTS, ONE CONNECTION</span>
           </div>
-          <h2>함께, 하나의 전시로.</h2>
+          <h2 data-reveal="up">함께, 하나의 전시로.</h2>
           <div className="participants-grid">
             {groups.map((g) => (
-              <div key={g.name}>
+              <div key={g.name} data-reveal="up">
                 <h3>{g.name}</h3>
                 {g.members.map(([role, name]) => (
                   <p key={name}>
@@ -213,16 +234,16 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div className="instructors">
+          <div className="instructors" data-reveal="up">
             <h3>Instructors</h3>
             {[
               ['졸업프로젝트', '이지영'],
               ['전시환경디자인', '손희주'],
-              ['전시환경디자인', '이용신'],
-              ['전시환경디자인', '박찬호'],
+              ['', '이용신'],
+              ['', '박찬호'],
             ].map(([subject, name]) => (
               <div className="instructor" key={name}>
-                <small>{subject}</small>
+                {subject && <small>{subject}</small>}
                 <span>{name} 교수님</span>
               </div>
             ))}

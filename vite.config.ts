@@ -1,6 +1,8 @@
 import { sites } from '@openai/sites-vite-plugin';
 import tailwindcss from '@tailwindcss/postcss';
+import tailwindcssVite from '@tailwindcss/vite';
 import vinext from 'vinext';
+import { nitro } from 'nitro/vite';
 import { defineConfig } from 'vite';
 import hostingConfig from './.openai/hosting.json';
 
@@ -42,6 +44,14 @@ export default defineConfig(async () => {
   process.env.MINIFLARE_REGISTRY_PATH ??= '.wrangler/registry';
 
   // Wrangler snapshots its log path while the Cloudflare plugin is imported.
+  const isVercelBuild = process.env.VERCEL === '1' || process.env.NITRO_PRESET === 'vercel';
+
+  if (isVercelBuild) {
+    return {
+      plugins: [tailwindcssVite(), vinext(), nitro()],
+    };
+  }
+
   const { cloudflare } = await import('@cloudflare/vite-plugin');
 
   return {

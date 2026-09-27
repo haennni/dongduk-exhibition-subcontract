@@ -1,0 +1,500 @@
+[
+  {
+    "id": "chromatopia",
+    "title": "CHROMATOPIA",
+    "subtitle": "색각 다양성을 이해하는 색 경험 문화체험 공간",
+    "category": "environment",
+    "number": "01",
+    "image": "/assets/projects/chromatopia/main.png",
+    "members": [
+      "김미르",
+      "송유은",
+      "이하빈"
+    ],
+    "tagline": "틀림이 아닌 ‘다름’을 위해, 색각 다양성을 인정하는 공생 사회를 위한 전시 교육관 제안",
+    "description": "CHROMATOPIA는 무지개에 부여된 사회적·단일적 색의 기준을 해체하고 재정립하며, 익숙한 색채의 기준을 새로운 시각으로 전환한다. 무지개의 프로세스 변화를 공간적 경험으로 풀어내어, 색각의 다양성을 이해하고 서로 다른 색채 경험이 공존하는 새로운 세계, ‘색의 유토피아’를 제안한다.",
+    "sections": [
+      {
+        "image": "/assets/projects/chromatopia/main.png",
+        "title": "건물 입구 및 카페",
+        "description": "전시의 시작점이 되는 로비 및 카페 공간으로, 일상과 전시를 연결하며 새로운 색각적 경험을 암시하는 도입 공간이다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/2.png",
+        "title": "무지개 관문",
+        "description": "전시 입장 전 렌즈와 색각 안경을 대여하며 새로운 색의 여정을 준비한다. 해당 공간에서는 사회적으로 익숙한 7색 무지개를 마주하며 이후 펼쳐질 색의 변화를 예고한다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/3.png",
+        "title": "순간이동 지하철",
+        "description": "사회적으로 익숙한 색의 기준에서 벗어나, 새로운 색의 경험으로 전환되는 통로이자 관문이다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/4.png",
+        "title": "색각 교란 전시",
+        "description": "일상과는 어긋난 색채로 이루어진 공간에서 시각적 정보에 의존해 길을 찾으며, 색각이상자의 색채 경험과 일상 속 불편함을 체험한다. 기존의 단일 무지개는 색각이상 스펙트럼으로 범위가 확장된다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/5.png",
+        "title": "색각 체험 프로그램",
+        "description": "색각 검사와 색상 정보값을 활용한 미션을 통해 색각에 따른 색 인식의 차이를 발견한다. 경계가 분명했던 7색의 무지개는 점차 경계를 허물며, 다양한 색이 공존하는 스펙트럼으로 확장된다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/6.png",
+        "title": "전시 교육관",
+        "description": "눈의 구조와 색각의 원리를 통해, 앞서 경험한 바라보는 색상의 차이가 발생하는 이유를 이해한다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/7.png",
+        "title": "RGB 전시관",
+        "description": "RGB 색코드를 통해 색각이상의 원리를 시각적 정보값으로 직관적으로 전달하고, 공간 전체를 감싸는 몰입형 디스플레이를 통해 색각이상자가 경험하는 색의 세계를 재현한다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/8.png",
+        "title": "갤러리 공간",
+        "description": "색각이상 작가들의 작품 전시, 엔크로마의 브랜드 연혁, 스마트 태깅을 통한 자신의 스펙트럼 투영 등을 할 수 있는 공간이다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/9.png",
+        "title": "CHROMATOPIA",
+        "description": "정해진 색의 기준을 넘어 저마다 다른 시선과 감각으로 세상을 바라보고, 나만의 무지개를 발견한다. CHROMATOPIA는 서로 다른 색채 경험을 통해 우리가 가진 색의 세계를 새롭게 확장한다."
+      }
+    ]
+  },
+  {
+    "id": "dalgureungteo",
+    "title": "달(獺)구릉터",
+    "subtitle": "수달과 사람이 만나는 휴게소",
+    "category": "environment",
+    "number": "02",
+    "image": "/assets/projects/dalgureungteo/main.png",
+    "members": [
+      "전솔빈"
+    ],
+    "tagline": "달구릉터는 수달의 로드킬 예방에서 시작해 자연을 향해 나아가며 우리가 잊고 있던 공존의 자아를 복기하는 쉼터다.",
+    "description": "달(獺)은 수달을, 구릉은 사람이 발걸음의 속도를 낮추며 이동하는 완만한 경사지로 수달이 선호하는 서식 환경이자 인간의 진입로로 자연과의 공존을 유도하는 공간이다.",
+    "sections": [
+      {
+        "image": "/assets/projects/dalgureungteo/main.png",
+        "title": "휴게소 전경",
+        "description": "대청호의 터널 인근 경사지에 위치해 감속을 유도하고 자연 속에서 휴식하는 공간이다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/1.png",
+        "title": "레스토랑 [수담]",
+        "description": "창 밖 수달을 보며 식사할 수 있는 레스토랑 [수담]은 메뉴나 가구를 통해 수달의 생태에 대해 간접 체험할 수 있다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/2.png",
+        "title": "전망 카페 [몽돌]",
+        "description": "대청호에서 수달이 생활하는 모습을 영상, 디오라마 등으로 재현한 전망 카페 [몽돌]이다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/3.png",
+        "title": "수달 이름 공모 게시판",
+        "description": "사람들이 포착한 수달에게 자유롭게 이름을 지어주고 공모할 수 있는 게시판이다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/4.png",
+        "title": "수달 위치 기록",
+        "description": "직접 포착한 수달의 위치를 표시하며 수달 보존 연구에 방문자가 기여한다는 가치를 창출한다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/5.png",
+        "title": "수달 전시공간",
+        "description": "수달이 사냥을 위해 깊은 물 속에서 수면 위를 오가는 모습을 표현한 전시공간이다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/6.png",
+        "title": "B1F 카페 구역",
+        "description": "야행성인 수달이 하천을 누비는 모습을 미디어 아트로 연출한 B1F 카페 구역이다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/7.png",
+        "title": "생태 데크",
+        "description": "수달의 서식지를 반영한 생태 데크로, 단차를 여러 개 두어 수위 변동 시 안정적인 대피소가 된다."
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/8.png"
+      },
+      {
+        "image": "/assets/projects/dalgureungteo/9.png"
+      }
+    ]
+  },
+  {
+    "id": "saeum",
+    "title": "사음",
+    "subtitle": "완도의 자연과 사람, 그리고 시간의 소리를 기록하고 경험하는 소리보관소",
+    "category": "environment",
+    "number": "03",
+    "image": "/assets/projects/saeum/main.jpg",
+    "members": [
+      "범다현",
+      "차지은",
+      "허지원"
+    ],
+    "tagline": "완도의 소리는 자연과 사람, 그리고 시간이 함께 만들어낸 지역의 기억이다.",
+    "description": "명사십리의 ‘우는 모래’에서 시작된 소리의 장소성을 바탕으로, 파도와 바람의 자연음부터 사람들의 삶과 기억까지 흩어진 완도의 이야기를 하나의 소리로 연결한다.",
+    "sections": [
+      {
+        "image": "/assets/projects/saeum/main.jpg",
+        "title": "로비",
+        "description": "전시의 도입부인 로비는 다가올 전시와 체험을 향한 설레는 기대감을 북돋우는 안내자 역할 이자 완도의 자연과 소리를 소개하는 공간이다. 대형 미디어 아트와 중앙의 반응형 조형물 을 통해 소리의 흐름을 시각화였다."
+      },
+      {
+        "image": "/assets/projects/saeum/1.jpg",
+        "title": "소리보관소",
+        "description": "완도에서 수집된 소리를 자연·사람·역사를 카테고리로 나누어 보관하는 아카이브 공간이다. 개별 청음석이 마련되어 있어 선택적 데이터 청취와 열람이 가능하다."
+      },
+      {
+        "image": "/assets/projects/saeum/2.jpg",
+        "title": "오픈라운지",
+        "description": "각 영역을 연결하는 공간의 중심으로, 관람객의 동선이 모이고 다시 여러 프로그램으로 확 장되는 열린 광장이다. 잔디 언덕 및 바다와 맞닿아 있어 실내외의 경계 없이 주변 자연경 관을 온전히 경험할 수 있다."
+      },
+      {
+        "image": "/assets/projects/saeum/3.jpg",
+        "title": "역사실",
+        "description": "완도 섬의 모양을 본뜬 구조물 위로 완도의 역사와 관련된 영상 기록을 빔 프로젝터로 투사 하는 전시 공간이다. 완도의 역사와 주민들의 삶을 소리로 경험하며 지역의 변화와 이야기 를 살펴볼 수 있다."
+      },
+      {
+        "image": "/assets/projects/saeum/4.jpg",
+        "title": "울림실",
+        "description": "완도의 풍경과 소리를 360도로 감상할 수 있는 몰입형 미디어 공간이다. 시간과 계절에 따 라 변화하는 완도의 자연 요소와 바다의 소리가 어우러져, 누구나 섬의 일상 속에서 자연과 함께 호흡하는 경험을 할 수 있다."
+      },
+      {
+        "image": "/assets/projects/saeum/5.jpg",
+        "title": "치유실",
+        "description": "완도의 해양치유 자원과 자연의 소리를 함께 경험하며 휴식하는 공간이다. 해수 족욕 등 물 과 소리를 활용한 프로그램을 통해 몸과 감각의 회복을 돕는다."
+      },
+      {
+        "image": "/assets/projects/saeum/6.jpg",
+        "title": "소리정원",
+        "description": "하늘과 주변 자연을 향해 열린 원형 공간으로, 바람과 자연의 소리에 집중하며 잠시 머무를 수 있는 장소이다."
+      },
+      {
+        "image": "/assets/projects/saeum/7.jpg",
+        "title": "공예실",
+        "description": "체험 프로그램이 운영되는 다목적 작업 공간이다. 관람 과정에서 경험한 소리와 파형을 활 용해 자신만의 공예품을 제작하고 완도의 소리를 결과물로 남긴다."
+      },
+      {
+        "image": "/assets/projects/saeum/8.jpg",
+        "title": "카페",
+        "description": "통창 너머로 완도의 바다를 바라보며 휴식하는 카페 공간이다. 완도의 특산물인 전복과 해 산물을 활용한 식음료를 판매한다."
+      },
+      {
+        "image": "/assets/projects/saeum/9.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sumbi",
+    "title": "숨 비",
+    "subtitle": "해녀의 숨과 삶을 잇는 해녀 문화 복합 전시 공간",
+    "category": "environment",
+    "number": "04",
+    "image": "/assets/projects/sumbi/main.png",
+    "members": [
+      "박소윤",
+      "정희수",
+      "차영주"
+    ],
+    "tagline": "해녀의 숨결을 따라 삶과 문화를 경험하고, 그 가치를 이어가는 공간",
+    "description": "물질의 긴장과 집중, 숨비소리의 해방과 전환, 불턱의 회복을 전시·체험·교육으로 이어지는 공간의 흐름으로 풀어낸다. 해녀의 삶과 지혜를 동시대적 감각으로 재해석하여, 그 가치를 직접 경험하고 이어가는 문화 공간을 제안한다.",
+    "sections": [
+      {
+        "image": "/assets/projects/sumbi/main.png",
+        "title": "MAIN VIEW",
+        "description": "숨비광장은 해녀가 물질을 마친 뒤 내쉬는 숨비소리처럼, 방문객이 바다를 바라보며 잠시 숨을 고르고 머무르며 해녀의 시와 이야기를 접할 수 있는 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/1.png",
+        "title": "로비",
+        "description": "해녀 전시로 들어가기 전, 해녀의 삶과 문화에 대한 기본적인 정보를 접하고 잠시 머물며 휴식할 수 있는 전이 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/2.png",
+        "title": "바다를 읽다",
+        "description": "바람의 변화와 파도의 높낮이를 직접 느끼며, 해녀가 자연의 변화를 감지하고 바다를 읽는 방식을 경험하는 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/3.png",
+        "title": "바다와의 약속",
+        "description": "바닷속처럼 조성된 몰입형 전시를 통해 해녀가 지켜온 채취의 규칙과 바다의 생명을 보호하는 방식을 보여주며, 자연과 공존해온 해녀의 삶을 경험하는 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/4.png",
+        "title": "해녀의 시선",
+        "description": "해녀의 시선으로 바닷속을 따라 들어가며, 물질의 준비부터 잠수와 채취, 그리고 수면 위로 올라오는 순간까지의 과정을 서클비전 미디어에 담아낸다."
+      },
+      {
+        "image": "/assets/projects/sumbi/5.png",
+        "title": "바다를 기록하다",
+        "description": "물질을 마친 해녀가 직접 기록한 일지를 통해 그날의 바다와 작업의 경험, 해녀의 삶을 들여다보는 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/6.png",
+        "title": "숨비소리",
+        "description": "해녀가 물 밖으로 나와 터뜨리는 생명의 첫 숨인 숨비소리를 매개로, 자신의 호흡을 살피고 타인의 숨소리에 귀를 기울이며 서로의 안녕을 확인하는 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/7.png",
+        "title": "숨비 배움터",
+        "description": "해녀학교의 전문적인 입문·양성 교육부터 일반 관 광객을 위한 체험 프로그램까지 폭넓게 운영하며, 해녀 고유의 물질 기술과 안전 수칙을 배우고 전통 어구인 테왁을 직접 제작하며 해녀의 기술과 문화 를 함께 경험하는 교육·체험 공간이다."
+      },
+      {
+        "image": "/assets/projects/sumbi/8.png",
+        "title": "해녀의 부엌",
+        "description": "해녀들이 채취한 해산물과 제주 식문화를 바탕으로 구성된 공간으로, 바다와 함께 살아온 해녀의 삶을 음식으로 경험할 수 있다."
+      },
+      {
+        "image": "/assets/projects/sumbi/9.png",
+        "title": "해녀의 휴식",
+        "description": "해녀 문화에서 영감을 받은 음료와 디저트, 로컬 상 품 및 해녀 굿즈를 통해 해녀 문화를 보다 친근하게 접할 수 있는 공간이다."
+      }
+    ]
+  },
+  {
+    "id": "yeon",
+    "title": "연,燃",
+    "subtitle": "씨랜드 참사 추모·화재안전 교육·연구 복합단지",
+    "category": "environment",
+    "number": "05",
+    "image": "/assets/projects/yeon/main.jpg",
+    "members": [
+      "강희슬",
+      "권민서"
+    ],
+    "tagline": "피어오른 연기 속 화재의 기억, 내일의 안전을 밝히다",
+    "description": "1999년 6월 30일 아이들의 목숨을 앗아간 씨랜드 화재 참사의 기억을 공간에 담아 희생자를 추모하고, 화재안전 교육과 연구를 통해 참사의 기억을 미래의 안전으로 이어간다.",
+    "sections": [
+      {
+        "image": "/assets/projects/yeon/main.jpg",
+        "title": "연 추모관",
+        "description": "씨랜드 화재참사로 희생된 23명의 아이들과 어른들을 기억하고 추모하는 공간으로, 화재의 흔적을 상징하는 연기(煙)에서 출발해, 남겨진 사람들의 그리움 연(戀)으로 의미를 확장한다."
+      },
+      {
+        "image": "/assets/projects/yeon/1.jpg",
+        "title": "연 통로",
+        "description": "연 통로는 추모관으로 향하는 전이 공간으로, 자욱하게 깔린 수증기와 흐릿한 시야를 통해 화재 당시의 상황을 간접적으로 경험하며 추모의 몰입감을 높인다."
+      },
+      {
+        "image": "/assets/projects/yeon/2.jpg",
+        "title": "연 로비",
+        "description": "주안전색인 주황색 계단과 탈출 동선을 중심으로 안전센터와 연구소를 배치하고, 지하 추모공간의 수증기로 기억과 예방을 연결한다."
+      },
+      {
+        "image": "/assets/projects/yeon/3.jpg",
+        "title": "VR 게이트",
+        "description": "밝은 간접조명과 메탈 마감재로 깔끔하고 안전한 교육 환경을 조성하며, VR 기기를 활용해 실제 화재 상황과 대피 과정을 체험할 수 있도록 구성했다."
+      },
+      {
+        "image": "/assets/projects/yeon/4.jpg",
+        "title": "VR 화재 대피 체험관",
+        "description": "VR로 화재 상황을 체험하고 실제 공간에서 대피 동선을 익히며, 올바른 대피법과 비상구 식별 능력을 기른다."
+      },
+      {
+        "image": "/assets/projects/yeon/5.jpg",
+        "title": "마감재 연소 실험실",
+        "description": "가연성 및 불연성 마감재의 화재 반응을 직접 실험하고 비교하는 오픈랩 공간. 연구자의 실험 과정과 장비를 조작하는 모습을 외부에서 관찰할 수 있도록 구성했다."
+      },
+      {
+        "image": "/assets/projects/yeon/6.jpg",
+        "title": "마감재 연소 실험실",
+        "description": "방문객들이 2층에서 공간 전체를 내려다볼 수 있도록 시야가 열린 구조로 구성하여, 각 공간의 활동과 프로그램을 자연스럽게 인지하고 건물 내부의 흐름을 경험할 수 있도록 했다."
+      },
+      {
+        "image": "/assets/projects/yeon/7.jpg",
+        "title": "방화기준 역사 아카이브",
+        "description": "가연성 패널의 위험성과 방화기준 변천을 메쉬 천장, 연기 디스플레이, 레드 컬러로 시각화한 경각심 아카이브 공간이다."
+      },
+      {
+        "image": "/assets/projects/yeon/8.jpg"
+      },
+      {
+        "image": "/assets/projects/yeon/9.jpg"
+      }
+    ]
+  },
+  {
+    "id": "yeonwon",
+    "title": "연원 淵源: 길어올린 시간",
+    "subtitle": "안동 수몰마을 기록 사유관",
+    "category": "environment",
+    "number": "06",
+    "image": "/assets/projects/yeonwon/main.png",
+    "members": [
+      "김희나",
+      "임경주",
+      "허윤지"
+    ],
+    "tagline": "안동 수몰마을의 잠긴 삶과 기억을 길어 올려, 사라진 마을의 이야기를 오늘의 안동과 다시 잇는 공간.",
+    "description": "안동댐 건설로 수몰된 마을의 사진과 기록, 주민들의 삶의 흔적을 전시와 공간적 체험을 통해 다시 드러내고, 잠겨 있던 기억을 현재의 공간으로 길어 올린다. 관람객은 기록의 발견에서 기억의 복원과 체험으로 이어지는 과정을 따라가며, 사라진 마을의 삶을 자신의 시선으로 바라보고 그 기억이 오늘의 안동에 어떤 의미로 남아 있는지 사유하게 된다.",
+    "sections": [
+      {
+        "image": "/assets/projects/yeonwon/main.png",
+        "title": "기억을 지나는 길",
+        "description": "흐릿한 레이어 너머로 실루엣이 겹쳐 보이며, 관람객은 기억의 경계를 지나 수몰마을의 시간 속으로 스며드는 듯한 전이를 경험한다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/2.png",
+        "title": "입구",
+        "description": "우물을 형상화한 계단과 마을이 잠긴 높이를 나타내는 수위선을 따라 내려가며, 수몰마을의 기억 속으로 전시 여정을 시작한다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/3.png",
+        "title": "기억의 레이어",
+        "description": "반투명 패널에 겹쳐진 사진과 기록을 따라 이동하며, 수몰마을의 삶과 풍경에 대한 정보를 단계적으로 받아들이고 사라진 마을의 기억을 가까이 마주한다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/4.png",
+        "title": "마을의 흔적",
+        "description": "수몰 이전 안동에 실제 존재했던 마을의 위치와 분포를 지형 모형으로 시각화하고, 빛기둥으로 각 마을의 위치를 표시하여 사라진 마을의 규모와 흔적을 이해하도록"
+      },
+      {
+        "image": "/assets/projects/yeonwon/5.png",
+        "title": "기억의 복원",
+        "description": "수몰 이전 마을의 주거와 골목 풍경을 비현실적 스케일로 재구성해, 다리를 따라 과거의 기억이 현재의 풍경으로 이어지는 흐름을 경험하게 한다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/6.png",
+        "title": "다리 아래의 삶",
+        "description": "수몰마을의 농업과 주민들의 일상 풍경을 공간적으로 재현하여, 골목을 따라 다리 아래를 지나며 당시의 삶을 따라 걷듯 체험하도록 한다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/7.png",
+        "title": "기억의 부상",
+        "description": "RFID에 반응하는 키네틱 구조물을 통해 수몰마을의 생활을 상징하는 사물들이 도르래를 따라 떠오르며, 잠겨 있던 기억을 드러낸다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/8.png",
+        "title": "기억의 파동",
+        "description": "관람객이 등불 오브제에 메시지를 남기며, 사라진 고향과 공동체의 기억을 되새기고 그 감정을 함께 나누는 참여형 공간이다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/9.png",
+        "title": "현재 안동댐 공간",
+        "description": "안동댐의 구조를 형상화한 공간으로, 내부에서 댐을 구성하는 재료를 시각·촉각적으로 체험하며 구조적 특징과 지역에 미친 영향을 이해한다."
+      },
+      {
+        "image": "/assets/projects/yeonwon/10.png",
+        "title": "선성수상길 사유공간",
+        "description": "투명 마감에서 목재 마감으로 변화하는 공간과 안개 연출을 통해, 전시의 기억이 현재의 안동호와 선성수상길 풍경으로 이어지도록 한다."
+      }
+    ]
+  },
+  {
+    "id": "ongeum",
+    "title": "온금",
+    "subtitle": "온전한 나를 발견하는 킨츠키 전시관",
+    "category": "environment",
+    "number": "07",
+    "image": "/assets/projects/ongeum/main.png",
+    "members": [
+      "김노하은",
+      "이하늘",
+      "주민재"
+    ],
+    "tagline": "본연의 가치가 빛이 되는 공간, 온전함으로 나아가다.",
+    "description": "있는 그대로의 나를 인정하고 보듬을 때, 우리는 ‘온전함’의 가치를 발견할 수 있다. 킨츠키의 미학은 시간의 흔적을 새로운 의미로 승화시켜 결국 ‘온전한 나’를 마주하는 경험으로 이어진다.",
+    "sections": [
+      {
+        "image": "/assets/projects/ongeum/main.png",
+        "title": "조각: 겹",
+        "description": "지나온 시간과 다채로운 경험 속 나의 모습을 겹겹이 쌓인 조각의 형상을 드러내는 공간이다. 관람객은 조각을 들고 공방으로 향하며, 이는 회복과 재구성을 위한 출발점이 된다."
+      },
+      {
+        "image": "/assets/projects/ongeum/1.png",
+        "title": "탐색: 찰",
+        "description": "시간의 흔적이 이어지는 과정을 홀로그램으로 몰입감 있게 연출하여 스스로의 본연을 깊이 있게 시각적으로 탐색한다."
+      },
+      {
+        "image": "/assets/projects/ongeum/2.png",
+        "title": "로비",
+        "description": "탐색: 찰과"
+      },
+      {
+        "image": "/assets/projects/ongeum/3.png",
+        "title": "기록: 흔",
+        "description": "사이의 공간으로, 킨츠키를 연상시키는 계단을 배치하였다. 기록: 흔 고유한 결이 모여 형성된 책상과 벽체로 구성되었다. 지나온 시간의 기록을 담아내며 서로의 가치를 공유하고 깊은 공감대를 형성한다."
+      },
+      {
+        "image": "/assets/projects/ongeum/4.png",
+        "title": "공방: 잇",
+        "description": "흔적의 틈새를 ‘금’으로 이어 붙이며, 본연을 완성해 가는 체험 공간이다."
+      },
+      {
+        "image": "/assets/projects/ongeum/5.png",
+        "title": "전시: 현",
+        "description": "고유한 킨츠키 작품을 전시하는 공간으로, 천장을 따라 흐르는 금의 형상을 타고 내려앉는 빛이 작품과 공간 전체를 따스하게 비추며 지나온 시간의 흔적이 지닌 고유한 아름다움을 보여준다."
+      },
+      {
+        "image": "/assets/projects/ongeum/6.png",
+        "title": "명상: 온",
+        "description": "금에서 들어오는 온전한 빛이 공간 전체로 아늑하게 확산하는 명상 공간이다. 시간에 따른 빛의 각도 변화를 따라 스스로 자리를 선택해 머무르도록 조성하였다."
+      },
+      {
+        "image": "/assets/projects/ongeum/7.png",
+        "title": "다도: 음",
+        "description": "은은한 빛이 공간으로 투과하며 천장에서 따스하게 내려앉는 다도 공간이다. 시간의 정성이 담긴 그릇을 직접 사용하며 차를 즐기는 경험을 제공한다."
+      },
+      {
+        "image": "/assets/projects/ongeum/8.png",
+        "title": "다도 판매공간",
+        "description": "킨츠키의 정체성을 담은 다도 제품과 다도 카페 제조 공간이다. 천장 금으로 스며드는 자연광이 시간에 따라 변화하는 고유한 분위기를 형성한다."
+      },
+      {
+        "image": "/assets/projects/ongeum/9.png"
+      }
+    ]
+  },
+  {
+    "id": "horyu",
+    "title": "호류",
+    "subtitle": "영산강의 흐름을 따라 미래로, 전남광주통합특별시 홍보관",
+    "category": "environment",
+    "number": "08",
+    "image": "/assets/projects/horyu/main.png",
+    "members": [
+      "안정연",
+      "장은서"
+    ],
+    "tagline": "침체된 지방 경제의 한계를 극복하고 흩어졌던 호남의 에너지를 융합하여 미래로 흘려보내는 복합 거점 홍보관",
+    "description": "과거부터 호남의 문화를 꽃피운 영산강을 모티브로, 통합된 미래로 도약하는 새로운 물길 '호류'를 제안한다. 강의 발원에서 확장까지 이어지는 유기적 흐름을 공간으로 구성해, 호남의 새로운 비전을 담아냈다.",
+    "sections": [
+      {
+        "image": "/assets/projects/horyu/main.png",
+        "title": "발원 · 로비",
+        "description": "영산강의 발원지인 가마골 용소를 모티브로 한 전시의 시작점이다. 호남 지도 위로 떨어지는 물결과 전설 속의 승천하는 용 조형물이 어우러져 신비로운 분위기를 자아낸다."
+      },
+      {
+        "image": "/assets/projects/horyu/1.png",
+        "title": "호연 · 호남 전시실",
+        "description": "호남의 다채로운 역사와 예술, 미식을 소개하는 공간이다. 물이 대지에 스며들어 습지를 이루듯, 경계 없이 유연한 동선을 따라가며 자연스럽게 문화를 관람할 수 있다."
+      },
+      {
+        "image": "/assets/projects/horyu/2.png",
+        "title": "합류 · 광장",
+        "description": "여러 물길이 모여 응축된 에너지를 발산하는 역동적인 광장이다. 과거와 미래를 잇는 길목에서 관람객의 흔적이 더해지며 생동감 넘치는 호남의 현재를 함께 완성해 나간다."
+      },
+      {
+        "image": "/assets/projects/horyu/3.png",
+        "title": "호원  ·  로컬 상점 및 카페",
+        "description": "나주평야의 끝없는 풍요로움을 품은 미식과 교감의 공간이다. 격자 패턴의 로컬 상점과 흐르는 수로를 묘사한 파라메트릭 테이블이 남도의 가치를 현대적으로 돋보이게 한다."
+      },
+      {
+        "image": "/assets/projects/horyu/4.png",
+        "title": "호저 · 미래 비전 전시실",
+        "description": "물이 모여 깊이를 더하는 하구둑의 속성을 동심원 형태로 연출했다. 중심에서 시작된 잔잔한 파동이 유기적으로 확산하며, 다가올 통합특별시의 역동적인 미래를 생생하게 비춘다"
+      },
+      {
+        "image": "/assets/projects/horyu/5.png",
+        "title": "확장 · 셔틀 플랫폼",
+        "description": "전시에서의 경험을 실제 호남 로컬 여행으로 이어주는 교통 거점이다. 리아스식 군도를 닮은 소파에 머물며 여행지를 추천받고, 뻗어가는 바닥 패턴을 따라 무한한 여정을 시작한다."
+      },
+      {
+        "image": "/assets/projects/horyu/6.png"
+      }
+    ]
+  }
+]

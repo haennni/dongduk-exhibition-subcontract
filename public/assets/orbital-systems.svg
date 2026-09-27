@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1240" fill="none">
+  <title>Rotating circular orbit systems</title>
+  <g opacity=".56">
+    <circle cx="330" cy="905" r="148" stroke="white" stroke-width="1.15" opacity=".35"/>
+    <circle cx="330" cy="905" r="148" pathLength="1000" stroke="white" stroke-width="1.65" stroke-linecap="round" stroke-dasharray="190 810"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="24s" repeatCount="indefinite"/></circle>
+    <g><circle cx="478" cy="905" r="8" fill="white"/><circle cx="478" cy="905" r="28" stroke="white" stroke-width="1" opacity=".5"/><animateTransform attributeName="transform" type="rotate" from="0 330 905" to="360 330 905" dur="24s" repeatCount="indefinite"/></g>
+  </g>
+  <g opacity=".42">
+    <ellipse cx="1280" cy="175" rx="166" ry="112" stroke="white" stroke-width="1" opacity=".35"/>
+    <ellipse cx="1280" cy="175" rx="166" ry="112" pathLength="1000" stroke="white" stroke-width="1.35" stroke-linecap="round" stroke-dasharray="150 850"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="31s" begin="-14s" repeatCount="indefinite"/></ellipse>
+    <g><circle cx="1446" cy="175" r="5" fill="white"/><circle cx="1446" cy="175" r="17" stroke="white" stroke-width=".8" opacity=".45"/><animateTransform attributeName="transform" type="rotate" from="0 1280 175" to="360 1280 175" dur="31s" begin="-14s" repeatCount="indefinite"/></g>
+  </g>
+  <g opacity=".48">
+    <circle cx="1870" cy="960" r="184" stroke="white" stroke-width="1.1" opacity=".35"/>
+    <circle cx="1870" cy="960" r="184" pathLength="1000" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="120 60 35 785"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="28s" begin="-7s" repeatCount="indefinite"/></circle>
+    <g><circle cx="2054" cy="960" r="7" fill="white"/><circle cx="2054" cy="960" r="22" stroke="white" stroke-width=".9" opacity=".4"/><animateTransform attributeName="transform" type="rotate" from="360 1870 960" to="0 1870 960" dur="28s" begin="-7s" repeatCount="indefinite"/></g>
+  </g>
+</svg>
