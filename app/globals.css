@@ -169,16 +169,28 @@ nav .project-submenu a {
   padding: 14px 13px;
   font-size: 12px;
   letter-spacing: -0.01em;
-  border-radius: 13px;
-  transition: color 0.25s, background 0.25s, transform 0.25s;
+  border-radius: 0;
+  transition: color 0.25s;
 }
 nav .project-submenu a::after {
-  display: none;
+  display: block;
+  left: 13px;
+  right: 13px;
+  bottom: 7px;
+  width: auto;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: currentColor;
+  transition: transform 0.25s ease;
 }
 .project-submenu a:hover {
   color: #245fa9;
-  background: #ffffffa8;
-  transform: translateX(3px);
+  background: transparent;
+}
+.project-submenu a:hover::after,
+.project-submenu a:focus-visible::after {
+  transform: scaleX(1);
 }
 .project-submenu span {
   display: grid;
