@@ -1,4 +1,8 @@
+'use client';
+
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { X, ArrowUpRight } from 'lucide-react';
 import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { designers, projects } from '@/lib/exhibition';
 
@@ -7,6 +11,25 @@ const profilePath = (name: string) =>
 
 export default function Designers() {
   const sortedDesigners = [...designers].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+  const [selectedName, setSelectedName] = useState<string | null>(null);
+  const selectedDesigner = designers.find((designer) => designer.name === selectedName);
+  const selectedEnvironment = projects.find((project) =>
+    project.category === 'environment' && project.members.includes(selectedName ?? ''),
+  );
+  const selectedGraduation = projects.find((project) =>
+    project.category === 'graduation' && project.members.includes(selectedName ?? ''),
+  );
+
+  useEffect(() => {
+    if (!selectedName) return;
+    const close = (event: KeyboardEvent) => event.key === 'Escape' && setSelectedName(null);
+    document.body.classList.add('modal-open');
+    window.addEventListener('keydown', close);
+    return () => {
+      document.body.classList.remove('modal-open');
+      window.removeEventListener('keydown', close);
+    };
+  }, [selectedName]);
 
   return (
     <>
@@ -39,7 +62,12 @@ export default function Designers() {
 
             return (
               <article className="designer-card" id={designer.name} key={designer.name}>
-                <div className="designer-portrait">
+                <button
+                  className="designer-portrait designer-portrait-trigger"
+                  type="button"
+                  onClick={() => setSelectedName(designer.name)}
+                  aria-label={`${designer.name} 디자이너 상세 보기`}
+                >
                   <Image
                     src={profilePath(designer.name)}
                     alt={`${designer.name} 디자이너 프로필`}
@@ -51,7 +79,7 @@ export default function Designers() {
                     DOT {String(index + 1).padStart(2, '0')}
                   </span>
                   <span className="portrait-caption">DONGDUK INTERIOR DESIGN</span>
-                </div>
+                </button>
 
                 <div className="designer-name">
                   <h2>{designer.name}</h2>
@@ -82,6 +110,49 @@ export default function Designers() {
             );
           })}
         </div>
+
+        {selectedDesigner && (
+          <div className="designer-modal" role="dialog" aria-modal="true" aria-labelledby="designer-modal-name">
+            <button className="designer-modal-backdrop" type="button" onClick={() => setSelectedName(null)} aria-label="팝업 닫기" />
+            <div className="designer-modal-panel">
+              <button className="designer-modal-close" type="button" onClick={() => setSelectedName(null)} aria-label="닫기">
+                <X size={21} strokeWidth={1.4} />
+              </button>
+              <div className="designer-modal-portrait">
+                <Image src={profilePath(selectedDesigner.name)} alt={`${selectedDesigner.name} 디자이너 프로필`} fill sizes="(max-width: 760px) 88vw, 42vw" priority />
+                <span>DOT {String(sortedDesigners.findIndex((item) => item.name === selectedDesigner.name) + 1).padStart(2, '0')}</span>
+                <small>DONGDUK INTERIOR DESIGN</small>
+              </div>
+              <div className="designer-modal-info">
+                <p className="designer-modal-kicker">PARTICIPATING DESIGNER</p>
+                <div className="designer-modal-identity">
+                  <h2 id="designer-modal-name">{selectedDesigner.name}</h2>
+                  <p>{selectedDesigner.group} · {selectedDesigner.role}</p>
+                </div>
+                <div className="designer-modal-projects">
+                  <p>PROJECTS</p>
+                  {selectedEnvironment && (
+                    <a href={`/projects/${selectedEnvironment.id}`}>
+                      <small>전시환경디자인</small>
+                      <strong>{selectedEnvironment.title}</strong>
+                      <span>{selectedEnvironment.subtitle}</span>
+                      <ArrowUpRight aria-hidden="true" />
+                    </a>
+                  )}
+                  {selectedGraduation && (
+                    <a href={`/projects/${selectedGraduation.id}`}>
+                      <small>졸업프로젝트</small>
+                      <strong>{selectedGraduation.title}</strong>
+                      <span>{selectedGraduation.subtitle}</span>
+                      <ArrowUpRight aria-hidden="true" />
+                    </a>
+                  )}
+                </div>
+                <p className="designer-modal-foot">47TH DONGDUK INTERIOR DESIGN GRADUATE EXHIBITION</p>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="designer-end">
           <p>20개의 점이 만나 완성하는 하나의 전시.</p>
