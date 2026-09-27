@@ -1447,7 +1447,8 @@ footer a {
   letter-spacing: -.035em;
 }
 .project-gallery-item p {
-  max-width: 520px;
+  width: 100%;
+  max-width: none;
   margin: 0;
   color: #5d6f87;
   font-size: 13px;
