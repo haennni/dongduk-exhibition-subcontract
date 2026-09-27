@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { createPortal } from 'react-dom';
+import { createPortal, flushSync } from 'react-dom';
 import { X, ArrowUpRight } from 'lucide-react';
 import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { designers, projects } from '@/lib/exhibition';
@@ -20,6 +20,20 @@ export default function Designers() {
   const selectedGraduation = projects.find((project) =>
     project.category === 'graduation' && project.members.includes(selectedName ?? ''),
   );
+  const transitionName = (name: string) =>
+    `designer-dot-${sortedDesigners.findIndex((designer) => designer.name === name) + 1}`;
+  const openDesigner = (name: string) => {
+    const transitionDocument = document as Document & {
+      startViewTransition?: (update: () => void) => unknown;
+    };
+    if (!transitionDocument.startViewTransition) {
+      setSelectedName(name);
+      return;
+    }
+    transitionDocument.startViewTransition(() => {
+      flushSync(() => setSelectedName(name));
+    });
+  };
 
   useEffect(() => {
     if (!selectedName) return;
@@ -66,8 +80,9 @@ export default function Designers() {
                 <button
                   className="designer-portrait designer-portrait-trigger"
                   type="button"
-                  onClick={() => setSelectedName(designer.name)}
+                  onClick={() => openDesigner(designer.name)}
                   aria-label={`${designer.name} 디자이너 상세 보기`}
+                  style={{ viewTransitionName: transitionName(designer.name) }}
                 >
                   <Image
                     src={profilePath(designer.name)}
@@ -119,7 +134,7 @@ export default function Designers() {
               <button className="designer-modal-close" type="button" onClick={() => setSelectedName(null)} aria-label="닫기">
                 <X size={21} strokeWidth={1.4} />
               </button>
-              <div className="designer-modal-portrait">
+              <div className="designer-modal-portrait" style={{ viewTransitionName: transitionName(selectedDesigner.name) }}>
                 <Image src={profilePath(selectedDesigner.name)} alt={`${selectedDesigner.name} 디자이너 프로필`} fill sizes="(max-width: 760px) 88vw, 42vw" priority />
                 <span>DOT {String(sortedDesigners.findIndex((item) => item.name === selectedDesigner.name) + 1).padStart(2, '0')}</span>
                 <small>DONGDUK INTERIOR DESIGN</small>

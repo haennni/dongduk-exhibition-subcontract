@@ -1784,6 +1784,18 @@ body.modal-open {
 @keyframes designerPanel { from { opacity: 0; transform: translateY(34px) scale(0.96); } }
 @keyframes designerPortrait { from { transform: scale(1.09); filter: blur(4px); } }
 @keyframes designerInfo { from { opacity: 0; transform: translateY(20px); } }
+::view-transition-group(*) {
+  animation-duration: 0.78s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 0.78s;
+  mix-blend-mode: normal;
+}
+.designer-modal-portrait[style*='view-transition-name'] img {
+  animation: none;
+}
 .designer-end {
   margin-top: 85px;
   border-top: 1px solid var(--border);
