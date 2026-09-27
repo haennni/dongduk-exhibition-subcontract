@@ -53,11 +53,6 @@
         "image": "/assets/projects/chromatopia/8.webp",
         "title": "갤러리 공간",
         "description": "색각이상 작가들의 작품 전시, 엔크로마의 브랜드 연혁, 스마트 태깅을 통한 자신의 스펙트럼 투영 등을 할 수 있는 공간이다."
-      },
-      {
-        "image": "/assets/projects/chromatopia/main.webp",
-        "title": "건물 입구 및 카페",
-        "description": "전시의 시작점이 되는 로비 및 카페 공간으로, 일상과 전시를 연결하며 새로운 색각적 경험을 암시하는 도입 공간이다."
       }
     ]
   },
@@ -74,10 +69,6 @@
     "tagline": "달구릉터는 수달의 로드킬 예방에서 시작해 자연을 향해 나아가며 우리가 잊고 있던 공존의 자아를 복기하는 쉼터다.",
     "description": "달(獺)은 수달을, 구릉은 사람이 발걸음의 속도를 낮추며 이동하는 완만한 경사지로 수달이 선호하는 서식 환경이자 인간의 진입로로 자연과의 공존을 유도하는 공간이다.",
     "sections": [
-      {
-        "image": "/assets/projects/dalgureungteo/main.webp",
-        "description": "대청호의 터널 인근 경사지에 위치해 감속을 유도하고 자연 속에서 휴식하는 공간이다."
-      },
       {
         "image": "/assets/projects/dalgureungteo/1.webp"
       },
@@ -192,11 +183,6 @@
     "description": "물질의 긴장과 집중, 숨비소리의 해방과 전환, 불턱의 회복을 전시·체험·교육으로 이어지는 공간의 흐름으로 풀어낸다. 해녀의 삶과 지혜를 동시대적 감각으로 재해석하여, 그 가치를 직접 경험하고 이어가는 문화 공간을 제안한다.",
     "sections": [
       {
-        "image": "/assets/projects/sumbi/main.webp",
-        "title": "MAIN VIEW",
-        "description": "숨비광장은 해녀가 물질을 마친 뒤 내쉬는 숨비소리처럼, 방문객이 바다를 바라보며 잠시 숨을 고르고 머무르며 해녀의 시와 이야기를 접할 수 있는 공간이다."
-      },
-      {
         "image": "/assets/projects/sumbi/1.webp",
         "title": "로비",
         "description": "해녀 전시로 들어가기 전, 해녀의 삶과 문화에 대한 기본적인 정보를 접하고 잠시 머물며 휴식할 수 있는 전이 공간이다."
@@ -258,11 +244,6 @@
     "description": "1999년 6월 30일 아이들의 목숨을 앗아간 씨랜드 화재 참사의 기억을 공간에 담아 희생자를 추모하고, 화재안전 교육과 연구를 통해 참사의 기억을 미래의 안전으로 이어간다.",
     "sections": [
       {
-        "image": "/assets/projects/yeon/main.webp",
-        "title": "연 추모관",
-        "description": "씨랜드 화재참사로 희생된 23명의 아이들과 어른들을 기억하고 추모하는 공간으로, 화재의 흔적을 상징하는 연기(煙)에서 출발해, 남겨진 사람들의 그리움 연(戀)으로 의미를 확장한다."
-      },
-      {
         "image": "/assets/projects/yeon/1.webp",
         "title": "연 통로",
         "description": "연 통로는 추모관으로 향하는 전이 공간으로, 자욱하게 깔린 수증기와 흐릿한 시야를 통해 화재 당시의 상황을 간접적으로 경험하며 추모의 몰입감을 높인다."
@@ -314,11 +295,6 @@
     "tagline": "안동 수몰마을의 잠긴 삶과 기억을 길어 올려, 사라진 마을의 이야기를 오늘의 안동과 다시 잇는 공간.",
     "description": "안동댐 건설로 수몰된 마을의 사진과 기록, 주민들의 삶의 흔적을 전시와 공간적 체험을 통해 다시 드러내고, 잠겨 있던 기억을 현재의 공간으로 길어 올린다. 관람객은 기록의 발견에서 기억의 복원과 체험으로 이어지는 과정을 따라가며, 사라진 마을의 삶을 자신의 시선으로 바라보고 그 기억이 오늘의 안동에 어떤 의미로 남아 있는지 사유하게 된다.",
     "sections": [
-      {
-        "image": "/assets/projects/yeonwon/main.webp",
-        "title": "기억을 지나는 길",
-        "description": "흐릿한 레이어 너머로 실루엣이 겹쳐 보이며, 관람객은 기억의 경계를 지나 수몰마을의 시간 속으로 스며드는 듯한 전이를 경험한다."
-      },
       {
         "image": "/assets/projects/yeonwon/2.webp",
         "title": "입구",
@@ -382,48 +358,49 @@
     "description": "있는 그대로의 나를 인정하고 보듬을 때, 우리는 ‘온전함’의 가치를 발견할 수 있다. 킨츠키의 미학은 시간의 흔적을 새로운 의미로 승화시켜 결국 ‘온전한 나’를 마주하는 경험으로 이어진다.",
     "sections": [
       {
-        "image": "/assets/projects/ongeum/main.webp"
-      },
-      {
         "image": "/assets/projects/ongeum/1.webp",
-        "additionalImages": [
-          "/assets/projects/ongeum/2.webp"
-        ],
         "title": "조각: 겹",
         "description": "지나온 시간과 다채로운 경험 속 나의 모습을 겹겹이 쌓인 조각의 형상을 드러내는 공간이다. 관람객은 조각을 들고 공방으로 향하며, 이는 회복과 재구성을 위한 출발점이 된다."
       },
       {
+        "image": "/assets/projects/ongeum/2.webp",
+        "title": "탐색: 찰",
+        "description": "시간의 흔적이 이어지는 과정을 홀로그램으로 몰입감 있게 연출하여 스스로의 본연을 깊이 있게 시각적으로 탐색한다."
+      },
+      {
         "image": "/assets/projects/ongeum/3.webp",
+        "title": "로비",
+        "description": "탐색: 찰과"
+      },
+      {
+        "image": "/assets/projects/ongeum/4.webp",
         "title": "기록: 흔",
         "description": "사이의 공간으로, 킨츠키를 연상시키는 계단을 배치하였다. 기록: 흔 고유한 결이 모여 형성된 책상과 벽체로 구성되었다. 지나온 시간의 기록을 담아내며 서로의 가치를 공유하고 깊은 공감대를 형성한다."
       },
       {
-        "image": "/assets/projects/ongeum/4.webp",
+        "image": "/assets/projects/ongeum/5.webp",
         "title": "공방: 잇",
         "description": "흔적의 틈새를 ‘금’으로 이어 붙이며, 본연을 완성해 가는 체험 공간이다."
       },
       {
-        "image": "/assets/projects/ongeum/5.webp",
+        "image": "/assets/projects/ongeum/6.webp",
         "title": "전시: 현",
         "description": "고유한 킨츠키 작품을 전시하는 공간으로, 천장을 따라 흐르는 금의 형상을 타고 내려앉는 빛이 작품과 공간 전체를 따스하게 비추며 지나온 시간의 흔적이 지닌 고유한 아름다움을 보여준다."
       },
       {
-        "image": "/assets/projects/ongeum/6.webp",
+        "image": "/assets/projects/ongeum/7.webp",
         "title": "명상: 온",
         "description": "금에서 들어오는 온전한 빛이 공간 전체로 아늑하게 확산하는 명상 공간이다. 시간에 따른 빛의 각도 변화를 따라 스스로 자리를 선택해 머무르도록 조성하였다."
       },
       {
-        "image": "/assets/projects/ongeum/7.webp",
+        "image": "/assets/projects/ongeum/8.webp",
         "title": "다도: 음",
         "description": "은은한 빛이 공간으로 투과하며 천장에서 따스하게 내려앉는 다도 공간이다. 시간의 정성이 담긴 그릇을 직접 사용하며 차를 즐기는 경험을 제공한다."
       },
       {
-        "image": "/assets/projects/ongeum/8.webp",
+        "image": "/assets/projects/ongeum/9.webp",
         "title": "다도 판매공간",
         "description": "킨츠키의 정체성을 담은 다도 제품과 다도 카페 제조 공간이다. 천장 금으로 스며드는 자연광이 시간에 따라 변화하는 고유한 분위기를 형성한다."
-      },
-      {
-        "image": "/assets/projects/ongeum/9.webp"
       }
     ]
   },
