@@ -1784,14 +1784,24 @@ body.modal-open {
 @keyframes designerPanel { from { opacity: 0; transform: translateY(34px) scale(0.96); } }
 @keyframes designerPortrait { from { transform: scale(1.09); filter: blur(4px); } }
 @keyframes designerInfo { from { opacity: 0; transform: translateY(20px); } }
-::view-transition-group(*) {
-  animation-duration: 1.05s;
+::view-transition-group(designer-portrait-active) {
+  z-index: 220;
+  animation-duration: 0.9s;
   animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
 }
-::view-transition-old(*),
-::view-transition-new(*) {
-  animation-duration: 1.05s;
+::view-transition-old(designer-portrait-active),
+::view-transition-new(designer-portrait-active) {
+  animation-duration: 0.9s;
   mix-blend-mode: normal;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+}
+
+::view-transition-old(root) {
+  opacity: 0;
 }
 .designer-modal-portrait[style*='view-transition-name'] img {
   animation: none;

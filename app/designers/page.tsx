@@ -13,6 +13,7 @@ const profilePath = (name: string) =>
 export default function Designers() {
   const sortedDesigners = [...designers].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
   const [selectedName, setSelectedName] = useState<string | null>(null);
+  const [transitioningName, setTransitioningName] = useState<string | null>(null);
   const selectedDesigner = designers.find((designer) => designer.name === selectedName);
   const selectedEnvironment = projects.find((project) =>
     project.category === 'environment' && project.members.includes(selectedName ?? ''),
@@ -20,31 +21,27 @@ export default function Designers() {
   const selectedGraduation = projects.find((project) =>
     project.category === 'graduation' && project.members.includes(selectedName ?? ''),
   );
-  const transitionName = (name: string) =>
-    `designer-dot-${sortedDesigners.findIndex((designer) => designer.name === name) + 1}`;
-  const openDesigner = (name: string) => {
+  const runPortraitTransition = (name: string, update: () => void) => {
     const transitionDocument = document as Document & {
-      startViewTransition?: (update: () => void) => unknown;
+      startViewTransition?: (update: () => void) => { finished: Promise<void> };
     };
     if (!transitionDocument.startViewTransition) {
-      setSelectedName(name);
+      update();
       return;
     }
-    transitionDocument.startViewTransition(() => {
-      flushSync(() => setSelectedName(name));
+
+    flushSync(() => setTransitioningName(name));
+    const transition = transitionDocument.startViewTransition(() => {
+      flushSync(update);
     });
+    transition.finished.finally(() => setTransitioningName(null));
+  };
+  const openDesigner = (name: string) => {
+    runPortraitTransition(name, () => setSelectedName(name));
   };
   const closeDesigner = () => {
-    const transitionDocument = document as Document & {
-      startViewTransition?: (update: () => void) => unknown;
-    };
-    if (!transitionDocument.startViewTransition) {
-      setSelectedName(null);
-      return;
-    }
-    transitionDocument.startViewTransition(() => {
-      flushSync(() => setSelectedName(null));
-    });
+    if (!selectedName) return;
+    runPortraitTransition(selectedName, () => setSelectedName(null));
   };
 
   useEffect(() => {
@@ -85,7 +82,7 @@ export default function Designers() {
                   type="button"
                   onClick={() => openDesigner(designer.name)}
                   aria-label={`${designer.name} 디자이너 상세 보기`}
-                  style={{ viewTransitionName: selectedName === designer.name ? 'none' : transitionName(designer.name) }}
+                  style={{ viewTransitionName: transitioningName === designer.name && selectedName !== designer.name ? 'designer-portrait-active' : 'none' }}
                 >
                   <Image
                     src={profilePath(designer.name)}
@@ -120,7 +117,7 @@ export default function Designers() {
               <button className="designer-modal-close" type="button" onClick={closeDesigner} aria-label="닫기">
                 <X size={21} strokeWidth={1.4} />
               </button>
-              <div className="designer-modal-portrait" style={{ viewTransitionName: transitionName(selectedDesigner.name) }}>
+              <div className="designer-modal-portrait" style={{ viewTransitionName: 'designer-portrait-active' }}>
                 <Image src={profilePath(selectedDesigner.name)} alt={`${selectedDesigner.name} 디자이너 프로필`} fill sizes="(max-width: 760px) 88vw, 42vw" priority />
                 <span>DOT {String(sortedDesigners.findIndex((item) => item.name === selectedDesigner.name) + 1).padStart(2, '0')}</span>
                 <small>DONGDUK INTERIOR DESIGN</small>
