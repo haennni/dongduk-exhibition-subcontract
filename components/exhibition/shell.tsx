@@ -8,7 +8,6 @@ export function Header(){
   const path=usePathname();
   const [scrolled,setScrolled]=useState(false);
   const [open,setOpen]=useState(false);
-  const [social,setSocial]=useState(false);
   const [q,setQ]=useState('');
   useEffect(()=>{const fn=()=>setScrolled(window.scrollY>70);fn();window.addEventListener('scroll',fn,{passive:true});return()=>window.removeEventListener('scroll',fn)},[]);
   const light=(path==='/'&&!scrolled)||Boolean(path?.startsWith('/projects/')&&!scrolled);
@@ -20,12 +19,12 @@ export function Header(){
       <div className="nav-project-menu">
         <a href="/projects" aria-current={path?.startsWith('/projects')?'page':undefined}>PROJECT</a>
         <div className="project-submenu" aria-label="프로젝트 분야">
-          <a href="/projects?category=environment"><span>01</span>전시환경디자인</a>
-          <a href="/projects?category=graduation"><span>02</span>졸업프로젝트</a>
+          <a href="/projects?category=environment"><span className="submenu-label">전시환경디자인</span></a>
+          <a href="/projects?category=graduation"><span className="submenu-label">졸업프로젝트</span></a>
         </div>
       </div>
       <a href="/designers" aria-current={path?.startsWith('/designers')?'page':undefined}>DESIGNER</a>
-      <Dialog open={social} onOpenChange={setSocial}><DialogTrigger className="nav-button">INSTAGRAM <ArrowUpRight size={11}/></DialogTrigger><DialogContent className="search-dialog"><DialogTitle>전시 소식을 만나는 곳</DialogTitle><DialogDescription>공식 인스타그램 계정은 추후 연결될 예정입니다.</DialogDescription></DialogContent></Dialog>
+      <a className="nav-button" href="https://www.instagram.com/dongduk_interior_47th?stkn=Nzg2ZXo3Ynk4YzRo" target="_blank" rel="noreferrer">INSTAGRAM <ArrowUpRight size={11}/></a>
     </nav>
     <Dialog open={open} onOpenChange={setOpen}><DialogTrigger className="search-button" aria-label="전시 검색"><Search size={22} strokeWidth={1.5}/></DialogTrigger><DialogContent className="search-dialog"><DialogTitle>Find your dot.</DialogTitle><DialogDescription>프로젝트 또는 참여 디자이너를 검색해 보세요.</DialogDescription><label className="sr-only" htmlFor="exhibition-search">검색어</label><input id="exhibition-search" value={q} onChange={e=>setQ(e.target.value)} placeholder="프로젝트, 디자이너 이름" className="search-input"/><div className="search-results">{query? <>{projects.filter(p=>(p.title+p.subtitle).toLowerCase().includes(query)).map(p=><a key={p.id} href={`/projects/${p.id}`} onClick={()=>setOpen(false)}><small>PROJECT</small>{p.title} ↗</a>)}{designers.filter(d=>d.name.includes(query)||d.group.includes(query)).map(d=><a key={d.name} href={`/designers#${encodeURIComponent(d.name)}`} onClick={()=>setOpen(false)}><small>{d.group}</small>{d.name} ↗</a>)}{!projects.some(p=>(p.title+p.subtitle).toLowerCase().includes(query))&&!designers.some(d=>d.name.includes(query)||d.group.includes(query))&&<p>검색 결과가 없습니다. 다른 이름으로 검색해 주세요.</p>}</>:<p>20개의 점, 서로 다른 시작을 만나보세요.</p>}</div></DialogContent></Dialog>
   </header>
