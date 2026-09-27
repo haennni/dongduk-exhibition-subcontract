@@ -23,7 +23,12 @@ export default async function Projects({searchParams}:{searchParams:Promise<{cat
         {categories.map(c=><TabsContent value={c.id} key={c.id}>
           <div className="category-intro">
             <div><h2>{c.name}</h2><p>지도교수 · {c.professor}</p></div>
-            <p>{c.description}</p>
+            <p>
+              {c.id === 'environment' ? <>
+                전시환경디자인 프로젝트는 공간을 통해 메시지를 전하고 감각을 이끌어내는 비일상적인 경험의 장(場)을 구성하는 데 집중합니다.<br/>
+                어떤 공간이 왜 필요한지, 그 공간이 사람과 사회에 어떤 질문을 던지는지를 탐구합니다.
+              </> : c.description}
+            </p>
           </div>
           <div className="project-grid">
             {projects.filter(p=>p.category===c.id).map(p=><a className="project-card" key={p.id} href={`/projects/${p.id}`}>

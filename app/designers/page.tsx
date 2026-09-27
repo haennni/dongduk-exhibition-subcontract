@@ -104,7 +104,6 @@ export default function Designers() {
                   </span>
                 </div>
 
-                <p className="designer-status">47TH GRADUATE EXHIBITION</p>
               </article>
             );
           })}
