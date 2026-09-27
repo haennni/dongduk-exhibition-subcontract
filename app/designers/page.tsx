@@ -34,10 +34,22 @@ export default function Designers() {
       flushSync(() => setSelectedName(name));
     });
   };
+  const closeDesigner = () => {
+    const transitionDocument = document as Document & {
+      startViewTransition?: (update: () => void) => unknown;
+    };
+    if (!transitionDocument.startViewTransition) {
+      setSelectedName(null);
+      return;
+    }
+    transitionDocument.startViewTransition(() => {
+      flushSync(() => setSelectedName(null));
+    });
+  };
 
   useEffect(() => {
     if (!selectedName) return;
-    const close = (event: KeyboardEvent) => event.key === 'Escape' && setSelectedName(null);
+    const close = (event: KeyboardEvent) => event.key === 'Escape' && closeDesigner();
     document.body.classList.add('modal-open');
     window.addEventListener('keydown', close);
     return () => {
@@ -66,15 +78,6 @@ export default function Designers() {
 
         <div className="designer-grid">
           {sortedDesigners.map((designer, index) => {
-            const environmentProject = projects.find(
-              (project) =>
-                project.category === 'environment' && project.members.includes(designer.name),
-            );
-            const graduationProject = projects.find(
-              (project) =>
-                project.category === 'graduation' && project.members.includes(designer.name),
-            );
-
             return (
               <article className="designer-card" id={designer.name} key={designer.name}>
                 <button
@@ -82,7 +85,7 @@ export default function Designers() {
                   type="button"
                   onClick={() => openDesigner(designer.name)}
                   aria-label={`${designer.name} 디자이너 상세 보기`}
-                  style={{ viewTransitionName: transitionName(designer.name) }}
+                  style={{ viewTransitionName: selectedName === designer.name ? 'none' : transitionName(designer.name) }}
                 >
                   <Image
                     src={profilePath(designer.name)}
@@ -104,23 +107,6 @@ export default function Designers() {
                   </span>
                 </div>
 
-                <div className="designer-projects" aria-label={`${designer.name} 참여 프로젝트`}>
-                  {environmentProject && (
-                    <a href={`/projects/${environmentProject.id}`}>
-                      <small>전시환경디자인</small>
-                      <span>{environmentProject.title}</span>
-                      <b aria-hidden="true">↗</b>
-                    </a>
-                  )}
-                  {graduationProject && (
-                    <a href={`/projects/${graduationProject.id}`}>
-                      <small>졸업프로젝트</small>
-                      <span>{graduationProject.title}</span>
-                      <b aria-hidden="true">↗</b>
-                    </a>
-                  )}
-                </div>
-
                 <p className="designer-status">47TH GRADUATE EXHIBITION</p>
               </article>
             );
@@ -129,9 +115,9 @@ export default function Designers() {
 
         {selectedDesigner && typeof document !== 'undefined' && createPortal((
           <div className="designer-modal" role="dialog" aria-modal="true" aria-labelledby="designer-modal-name">
-            <button className="designer-modal-backdrop" type="button" onClick={() => setSelectedName(null)} aria-label="팝업 닫기" />
+            <button className="designer-modal-backdrop" type="button" onClick={closeDesigner} aria-label="팝업 닫기" />
             <div className="designer-modal-panel">
-              <button className="designer-modal-close" type="button" onClick={() => setSelectedName(null)} aria-label="닫기">
+              <button className="designer-modal-close" type="button" onClick={closeDesigner} aria-label="닫기">
                 <X size={21} strokeWidth={1.4} />
               </button>
               <div className="designer-modal-portrait" style={{ viewTransitionName: transitionName(selectedDesigner.name) }}>
