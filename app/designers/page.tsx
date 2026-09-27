@@ -3,7 +3,7 @@ import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { designers, projects } from '@/lib/exhibition';
 
 const profilePath = (name: string) =>
-  `/assets/profiles/${encodeURIComponent(name)}.${name === '허윤지' ? 'png' : 'jpg'}`;
+  `/assets/profiles/${encodeURIComponent(name)}.webp`;
 
 export default function Designers() {
   const sortedDesigners = [...designers].sort((a, b) => a.name.localeCompare(b.name, 'ko'));

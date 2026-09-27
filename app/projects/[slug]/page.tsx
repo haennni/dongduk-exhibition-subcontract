@@ -14,7 +14,7 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
     <Header/>
     <main>
       <section className="project-cover">
-        <img src={p.image} alt={`${p.title} 프로젝트 대표 이미지`}/>
+        <img src={p.image} alt={`${p.title} 프로젝트 대표 이미지`} fetchPriority="high" decoding="async"/>
         <div className="cover-shade"/>
         <div className="cover-copy">
           <span className="cover-view">VIEW PROJECT ↗</span>
@@ -51,7 +51,7 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
           </div>
           {p.sections.map((section,index)=><figure className="project-gallery-item" data-reveal key={`${section.image}-${index}`}>
             <div className="project-gallery-visual">
-              <img src={section.image} alt={section.title?`${p.title} — ${section.title}`:`${p.title} 공간 이미지 ${index+1}`} loading={index<2?'eager':'lazy'}/>
+              <img src={section.image} alt={section.title?`${p.title} — ${section.title}`:`${p.title} 공간 이미지 ${index+1}`} loading="lazy" decoding="async"/>
             </div>
             {(section.title||section.description)&&<figcaption>
               {section.title&&<h3>{section.title}</h3>}

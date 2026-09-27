@@ -28,7 +28,7 @@ export default async function Projects({searchParams}:{searchParams:Promise<{cat
           <div className="project-grid">
             {projects.filter(p=>p.category===c.id).map(p=><a className="project-card" key={p.id} href={`/projects/${p.id}`}>
               <div className="project-image">
-                <img src={p.image} alt={`${p.title} 프로젝트 대표 이미지`} width="1200" height="850"/>
+                <img src={p.image} alt={`${p.title} 프로젝트 대표 이미지`} width="1200" height="850" loading="lazy" decoding="async"/>
                 <div className="project-overlay">
                   <span>VIEW PROJECT ↗</span>
                   <h3>{p.title}</h3>
