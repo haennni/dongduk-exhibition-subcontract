@@ -1654,12 +1654,9 @@ body.modal-open {
   max-height: min(780px, 90svh);
   display: grid;
   grid-template-columns: minmax(300px, 0.9fr) minmax(360px, 1.1fr);
-  overflow: hidden;
+  overflow: visible;
   color: #13233c;
-  background: #f8fafdee;
-  border: 1px solid #ffffffb8;
-  box-shadow: 0 38px 100px #06152c66;
-  animation: designerPanel 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+  background: transparent;
 }
 .designer-modal-close {
   position: absolute;
@@ -1678,6 +1675,7 @@ body.modal-open {
   backdrop-filter: blur(10px);
   cursor: pointer;
   transition: transform 0.35s, background 0.35s;
+  animation: designerCloseReveal 0.35s 1.08s ease both;
 }
 .designer-modal-close:hover {
   transform: rotate(90deg);
@@ -1685,9 +1683,11 @@ body.modal-open {
 }
 .designer-modal-portrait {
   position: relative;
+  z-index: 2;
   min-height: min(720px, 86svh);
   overflow: hidden;
   background: #dce4ee;
+  box-shadow: 0 38px 100px #06152c55;
 }
 .designer-modal-portrait::after {
   content: '';
@@ -1710,10 +1710,19 @@ body.modal-open {
 .designer-modal-portrait > span { top: 28px; left: 30px; font-size: 11px; }
 .designer-modal-portrait > small { bottom: 30px; left: 30px; font-size: 9px; }
 .designer-modal-info {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   min-width: 0;
   padding: clamp(48px, 5vw, 78px);
+  overflow: hidden;
+  background: #f8fafdf2;
+  border: 1px solid #ffffffb8;
+  border-left: 0;
+  box-shadow: 28px 38px 100px #06152c4d;
+  transform-origin: left center;
+  animation: designerInfoUnfold 0.62s 0.68s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 .designer-modal-kicker {
   margin: 0 0 28px;
@@ -1724,7 +1733,7 @@ body.modal-open {
 .designer-modal-identity {
   padding-bottom: 35px;
   border-bottom: 1px solid #ccd6e3;
-  animation: designerInfo 0.7s 0.12s ease both;
+  animation: designerInfo 0.58s 1.02s ease both;
 }
 .designer-modal-identity h2 {
   margin: 0;
@@ -1739,7 +1748,7 @@ body.modal-open {
 }
 .designer-modal-projects {
   margin-top: 38px;
-  animation: designerInfo 0.7s 0.22s ease both;
+  animation: designerInfo 0.58s 1.12s ease both;
 }
 .designer-modal-projects > p {
   margin: 0 0 10px;
@@ -1782,9 +1791,21 @@ body.modal-open {
   letter-spacing: 0.12em;
 }
 @keyframes designerBackdrop { from { opacity: 0; } }
-@keyframes designerPanel { from { opacity: 0; transform: translateY(34px) scale(0.96); } }
 @keyframes designerPortrait { from { transform: scale(1.09); filter: blur(4px); } }
 @keyframes designerInfo { from { opacity: 0; transform: translateY(20px); } }
+@keyframes designerInfoUnfold {
+  from {
+    clip-path: inset(0 100% 0 0);
+    transform: translateX(-34px);
+  }
+  to {
+    clip-path: inset(0);
+    transform: translateX(0);
+  }
+}
+@keyframes designerCloseReveal {
+  from { opacity: 0; transform: translateX(-18px) rotate(-45deg); }
+}
 ::view-transition-group(designer-portrait-active) {
   z-index: 220;
   animation-duration: 0.9s;
@@ -2114,6 +2135,10 @@ body.modal-open {
   }
   .designer-modal-info {
     padding: 36px 27px 32px;
+    border-top: 0;
+    border-left: 1px solid #ffffffb8;
+    transform-origin: top center;
+    animation-name: designerInfoUnfoldMobile;
   }
   .designer-modal-close {
     top: 16px;
@@ -2127,6 +2152,16 @@ body.modal-open {
   }
   .designer-modal-foot {
     margin-top: 32px;
+  }
+}
+@keyframes designerInfoUnfoldMobile {
+  from {
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(-28px);
+  }
+  to {
+    clip-path: inset(0);
+    transform: translateY(0);
   }
 }
 @media (max-width: 360px) {
