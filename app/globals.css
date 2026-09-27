@@ -1650,8 +1650,8 @@ body.modal-open {
 }
 .designer-modal-panel {
   position: relative;
-  width: min(1040px, 94vw);
-  max-height: min(780px, 90svh);
+  width: min(960px, 92vw);
+  max-height: min(710px, 86svh);
   display: grid;
   grid-template-columns: minmax(300px, 0.9fr) minmax(360px, 1.1fr);
   overflow: visible;
@@ -1684,7 +1684,7 @@ body.modal-open {
 .designer-modal-portrait {
   position: relative;
   z-index: 2;
-  min-height: min(720px, 86svh);
+  min-height: min(660px, 82svh);
   overflow: hidden;
   background: #dce4ee;
   box-shadow: 0 38px 100px #06152c55;
@@ -1715,7 +1715,7 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  padding: clamp(48px, 5vw, 78px);
+  padding: clamp(44px, 4.5vw, 66px);
   overflow: hidden;
   background: #f8fafdf2;
   border: 1px solid #ffffffb8;
