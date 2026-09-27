@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { designers, projects } from '@/lib/exhibition';
@@ -63,18 +62,18 @@ export default function Designers() {
 
                 <div className="designer-projects" aria-label={`${designer.name} 참여 프로젝트`}>
                   {environmentProject && (
-                    <Link href={`/projects/${environmentProject.id}`}>
+                    <a href={`/projects/${environmentProject.id}`}>
                       <small>전시환경디자인</small>
                       <span>{environmentProject.title}</span>
                       <b aria-hidden="true">↗</b>
-                    </Link>
+                    </a>
                   )}
                   {graduationProject && (
-                    <Link href={`/projects/${graduationProject.id}`}>
+                    <a href={`/projects/${graduationProject.id}`}>
                       <small>졸업프로젝트</small>
                       <span>{graduationProject.title}</span>
                       <b aria-hidden="true">↗</b>
-                    </Link>
+                    </a>
                   )}
                 </div>
 
@@ -86,9 +85,9 @@ export default function Designers() {
 
         <div className="designer-end">
           <p>20개의 점이 만나 완성하는 하나의 전시.</p>
-          <Link className="text-link" href="/projects">
+          <a className="text-link" href="/projects">
             프로젝트 둘러보기 ↗
-          </Link>
+          </a>
         </div>
       </main>
       <Footer />

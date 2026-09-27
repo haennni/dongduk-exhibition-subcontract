@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import {Header,Footer,Effects} from '@/components/exhibition/shell';
 import {categories,projects} from '@/lib/exhibition';
@@ -29,7 +28,7 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
       <section id="project-story" className="section project-story" data-reveal>
         <div className="section-label">
           <span>PROJECT {p.number}</span>
-          <Link href={`/projects?category=${p.category}`}>모든 프로젝트 ↗</Link>
+          <a href={`/projects?category=${p.category}`}>모든 프로젝트 ↗</a>
         </div>
         <div className="story-grid">
           <div>
@@ -61,7 +60,7 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
           </figure>)}
         </div>}
 
-        <Link className="text-link project-back-link" href={`/projects?category=${p.category}`}>프로젝트 목록으로 <span>↗</span></Link>
+        <a className="text-link project-back-link" href={`/projects?category=${p.category}`}>프로젝트 목록으로 <span>↗</span></a>
       </section>
     </main>
     <Footer/><Effects/>

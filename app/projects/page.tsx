@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import {Header,Footer,Effects} from '@/components/exhibition/shell';
 import {categories,projects} from '@/lib/exhibition';
 import {Tabs,TabsList,TabsTrigger,TabsContent} from '@/components/ui/tabs';
@@ -27,7 +26,7 @@ export default async function Projects({searchParams}:{searchParams:Promise<{cat
             <p>{c.description}</p>
           </div>
           <div className="project-grid">
-            {projects.filter(p=>p.category===c.id).map(p=><Link className="project-card" key={p.id} href={`/projects/${p.id}`}>
+            {projects.filter(p=>p.category===c.id).map(p=><a className="project-card" key={p.id} href={`/projects/${p.id}`}>
               <div className="project-image">
                 <img src={p.image} alt={`${p.title} 프로젝트 대표 이미지`} width="1200" height="850"/>
                 <div className="project-overlay">
@@ -37,7 +36,7 @@ export default async function Projects({searchParams}:{searchParams:Promise<{cat
                 </div>
                 <span className="project-arrow">↗</span>
               </div>
-            </Link>)}
+            </a>)}
           </div>
         </TabsContent>)}
       </Tabs>

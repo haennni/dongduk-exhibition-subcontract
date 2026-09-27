@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useRef } from 'react';
-import Link from 'next/link';
 import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { groups } from '@/lib/exhibition';
 export default function Home() {
@@ -151,9 +150,9 @@ export default function Home() {
                 이 전시에서 20개의 점이 만드는 정교한 발자취를 통해, 혼자서는
                 상상할 수 없었던 공동체의 입체적인 풍경을 마주하게 됩니다.
               </p>
-              <Link className="text-link" href="/projects">
+              <a className="text-link" href="/projects">
                 프로젝트 둘러보기 <span>↗</span>
-              </Link>
+              </a>
             </div>
           </div>
         </section>
@@ -226,9 +225,9 @@ export default function Home() {
                 {g.members.map(([role, name]) => (
                   <p key={name}>
                     <span>{role}</span>
-                    <Link href={`/designers#${encodeURIComponent(name)}`}>
+                    <a href={`/designers#${encodeURIComponent(name)}`}>
                       {name}
-                    </Link>
+                    </a>
                   </p>
                 ))}
               </div>
