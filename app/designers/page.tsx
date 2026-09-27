@@ -95,7 +95,6 @@ export default function Designers() {
                   <span className="designer-number">
                     DOT {String(index + 1).padStart(2, '0')}
                   </span>
-                  <span className="portrait-caption">DONGDUK INTERIOR DESIGN</span>
                   <span className="designer-detail-hint">
                     상세보기 <ArrowUpRight size={14} strokeWidth={1.5} />
                   </span>
