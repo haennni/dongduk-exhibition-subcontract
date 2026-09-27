@@ -425,26 +425,28 @@
       },
       {
         "image": "/assets/projects/horyu/2.webp",
+        "title": "호연 · 호남 전시실",
+        "description": "호남의 다채로운 역사와 예술, 미식을 소개하는 공간이다. 물이 대지에 스며들어 습지를 이루듯, 경계 없이 유연한 동선을 따라가며 자연스럽게 문화를 관람할 수 있다."
+      },
+      {
+        "image": "/assets/projects/horyu/3.webp",
         "title": "합류 · 광장",
         "description": "여러 물길이 모여 응축된 에너지를 발산하는 역동적인 광장이다. 과거와 미래를 잇는 길목에서 관람객의 흔적이 더해지며 생동감 넘치는 호남의 현재를 함께 완성해 나간다."
       },
       {
-        "image": "/assets/projects/horyu/3.webp",
-        "title": "호원  ·  로컬 상점 및 카페",
+        "image": "/assets/projects/horyu/4.webp",
+        "title": "호원 · 로컬 상점 및 카페",
         "description": "나주평야의 끝없는 풍요로움을 품은 미식과 교감의 공간이다. 격자 패턴의 로컬 상점과 흐르는 수로를 묘사한 파라메트릭 테이블이 남도의 가치를 현대적으로 돋보이게 한다."
       },
       {
-        "image": "/assets/projects/horyu/4.webp",
+        "image": "/assets/projects/horyu/5.webp",
         "title": "호저 · 미래 비전 전시실",
-        "description": "물이 모여 깊이를 더하는 하구둑의 속성을 동심원 형태로 연출했다. 중심에서 시작된 잔잔한 파동이 유기적으로 확산하며, 다가올 통합특별시의 역동적인 미래를 생생하게 비춘다"
+        "description": "물이 모여 깊이를 더하는 하구둑의 속성을 동심원 형태로 연출했다. 중심에서 시작된 잔잔한 파동이 유기적으로 확산하며, 다가올 통합특별시의 역동적인 미래를 생생하게 비춘다."
       },
       {
-        "image": "/assets/projects/horyu/5.webp",
+        "image": "/assets/projects/horyu/6.webp",
         "title": "확장 · 셔틀 플랫폼",
         "description": "전시에서의 경험을 실제 호남 로컬 여행으로 이어주는 교통 거점이다. 리아스식 군도를 닮은 소파에 머물며 여행지를 추천받고, 뻗어가는 바닥 패턴을 따라 무한한 여정을 시작한다."
-      },
-      {
-        "image": "/assets/projects/horyu/6.webp"
       }
     ]
   }

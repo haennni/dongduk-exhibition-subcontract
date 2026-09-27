@@ -1480,6 +1480,12 @@ footer a {
   letter-spacing: 0.08em;
   color: #6d7f98;
 }
+.designer-guide {
+  margin: -8px 0 28px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: #7b8da5;
+}
 .designer-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1560,6 +1566,37 @@ footer a {
   letter-spacing: 0.12em;
   color: #fff;
   text-shadow: 0 1px 10px #17365c80;
+}
+.designer-detail-hint {
+  position: absolute;
+  z-index: 2;
+  right: 16px;
+  bottom: 48px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 10px;
+  border: 1px solid #ffffff80;
+  border-radius: 999px;
+  background: #102343b8;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.35s, transform 0.35s;
+  pointer-events: none;
+}
+.designer-card:hover .designer-detail-hint,
+.designer-portrait-trigger:focus-visible .designer-detail-hint {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (hover: none) {
+  .designer-detail-hint {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .designer-card:hover .designer-initial {
   transform: translateY(-8px);

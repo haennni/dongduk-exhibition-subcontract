@@ -72,6 +72,7 @@ export default function Designers() {
           <span>PARTICIPATING DESIGNERS</span>
           <span>이름순 · 가나다</span>
         </div>
+        <p className="designer-guide">디자이너를 클릭하면 상세 정보와 참여 프로젝트를 확인할 수 있습니다.</p>
 
         <div className="designer-grid">
           {sortedDesigners.map((designer, index) => {
@@ -95,6 +96,9 @@ export default function Designers() {
                     DOT {String(index + 1).padStart(2, '0')}
                   </span>
                   <span className="portrait-caption">DONGDUK INTERIOR DESIGN</span>
+                  <span className="designer-detail-hint">
+                    상세보기 <ArrowUpRight size={14} strokeWidth={1.5} />
+                  </span>
                 </button>
 
                 <div className="designer-name">
