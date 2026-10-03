@@ -1830,6 +1830,24 @@ body.modal-open {
   color: #64758d;
   font-size: 14px;
 }
+.designer-modal-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  color: #9aa7b8;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  transition: color 0.25s ease;
+}
+.designer-modal-email svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 1.4;
+}
+.designer-modal-email:hover {
+  color: #64758d;
+}
 .designer-modal-projects {
   counter-reset: designer-project;
   margin-top: 38px;

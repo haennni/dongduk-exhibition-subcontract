@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { createPortal, flushSync } from 'react-dom';
-import { X, ArrowUpRight } from 'lucide-react';
+import { X, ArrowUpRight, Mail } from 'lucide-react';
 import { Header, Footer, Effects } from '@/components/exhibition/shell';
 import { designers, projects } from '@/lib/exhibition';
 
@@ -129,6 +129,10 @@ export default function Designers() {
                 <div className="designer-modal-identity">
                   <h2 id="designer-modal-name">{selectedDesigner.name}</h2>
                   <p>{selectedDesigner.group} · {selectedDesigner.role}</p>
+                  <a className="designer-modal-email" href={`mailto:${selectedDesigner.email}`}>
+                    <Mail aria-hidden="true" />
+                    <span>{selectedDesigner.email}</span>
+                  </a>
                 </div>
                 <div className="designer-modal-projects">
                   <p>PROJECTS</p>
