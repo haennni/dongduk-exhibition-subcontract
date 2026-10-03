@@ -456,42 +456,53 @@
     "sections": [
       {
         "image": "/assets/projects/on-gil/1.webp",
-        "description": "닫힌 시설에서 벗어나 세대와 세대가 어우러져 함께하는 따뜻한 돌봄센터이다."
+        "title": "온길",
+        "description": "온(溫)길은 닫힌 시설에서 벗어나 세대와 세대가 어우러져 함께 하는 따뜻한 돌봄센터를 가졌다."
       },
       {
         "image": "/assets/projects/on-gil/2.webp",
-        "description": "주황색을 활용한 휠체어 친화적인 공간으로 다양한 교류 및 단체 활동이 가능하다."
+        "title": "1F 시니어 로비",
+        "description": "주황색을 활용한 시니어 병동 로비는 휠체어 친화적인 공간으로 다양한 교류 및 단체활동이 가능하다."
       },
       {
         "image": "/assets/projects/on-gil/3.webp",
-        "description": "활동량이 많은 아동을 고려한 푹신하고 편안한 가구로 부상을 방지했다."
+        "title": "1F 아동로비",
+        "description": "분홍색을 포인트 컬러로 쓴 아동 병동 로비는 활동량 많은 아동을 고려한 푹신하고 편안한 가구를 디자인해 부상을 방지했다."
       },
       {
         "image": "/assets/projects/on-gil/4.webp",
-        "description": "외부인에게도 개방되어 함께 책을 읽거나 작은 세미나를 진행할 수 있다."
+        "title": "3F공공 도서관",
+        "description": "외부인에게도 개방된 도서관으로 이용자들이 함께 둘러앉아 책을 읽거나 작은 세미나를 진행할 수 있다."
       },
       {
         "image": "/assets/projects/on-gil/5.webp",
-        "description": "인근 주민에게 개방되며 신체적 장애가 있는 직원과 손님을 위해 유니버설 디자인을 적용했다."
+        "title": "1F 공공카페",
+        "description": "외부와 연결된 카페로 인근 주민에게도 개방돼 있다. 신체적 장애가 있는 직원과 손님을 위해 카운터 아래를 개방하고 높이를 낮춘 유니버셜 디자인을 사용했다."
       },
       {
         "image": "/assets/projects/on-gil/6.webp",
-        "description": "사생활과 휠체어 이동 반경, 낙상사고를 고려해 여러 공간과 둥근 가구로 구성했다."
-      },
-      {
-        "image": "/assets/projects/on-gil/7.webp",
-        "description": "아동과 노인이 함께 요리하고 교류하며 가족의 정과 일상의 역할을 회복한다."
+        "title": "2-3F 개인 호실",
+        "description": "개인 호실은 사생활을 고려해 실을 여러 개로 구분했다. 휠체어의 이동 반경과 낙상사고 등에 대비해 둥근 가구를 둔다."
       },
       {
         "image": "/assets/projects/on-gil/8.webp",
-        "description": "휠체어 이용객도 편하게 사용할 수 있는 공공스파다."
+        "title": "3F 공유주방",
+        "description": "함께 요리하고 나눠 먹으며 가족의 정과 일상의 역할을 회복하는 공유주방이다."
       },
       {
         "image": "/assets/projects/on-gil/9.webp",
-        "description": "자연스러운 교류가 일어나는 만남의 장소이자 다른 건물로 이어지는 유기적인 보행 트랙이다.",
-        "additionalImages": [
-          "/assets/projects/on-gil/10.webp"
-        ]
+        "title": "공유주방 카운터",
+        "description": "공유주방에선 아동과 노인이 함께 요리하고 교류할 수 있다. 휠체어를 탄 환자도 이용할 수 있도록 디자인했다."
+      },
+      {
+        "image": "/assets/projects/on-gil/7.webp",
+        "title": "2F 공공스파",
+        "description": "휠체어 이용객도 편하게 사용할 수 있는 공공스파다."
+      },
+      {
+        "image": "/assets/projects/on-gil/10.webp",
+        "title": "중정",
+        "description": "중정은 다방면으로 연결되는 동선을 제공한다. 자연스러운 교류가 일어나는 만남의 장소인 동시에 다른 건물로 이어지는 유기적인 보행 트랙으로 기능한다."
       }
     ]
   }

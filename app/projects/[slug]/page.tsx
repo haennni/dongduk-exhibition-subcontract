@@ -50,7 +50,7 @@ export default async function Project({params}:{params:Promise<{slug:string}>}){
             <span>PROJECT SCENES</span>
             <span>{String(galleryImageCount).padStart(2,'0')} IMAGES</span>
           </div>
-          {p.sections.map((section,index)=><figure className={`project-gallery-item${p.id === 'on-gil' || p.id === 'dalgureungteo' ? ' project-gallery-item-centered-copy' : ''}`} data-reveal key={`${section.image}-${index}`}>
+          {p.sections.map((section,index)=><figure className="project-gallery-item" data-reveal key={`${section.image}-${index}`}>
             <div className={`project-gallery-visual${section.additionalImages?.length ? ' project-gallery-visual-stacked' : ''}`}>
               <img src={section.image} alt={section.title?`${p.title} — ${section.title}`:`${p.title} 공간 이미지 ${index+1}`} loading="lazy" decoding="async"/>
               {section.additionalImages?.map((image, imageIndex) => (
