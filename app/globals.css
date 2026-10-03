@@ -851,7 +851,7 @@ footer a {
   display: block;
   width: 50%;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   object-fit: contain;
   mix-blend-mode: multiply;
   transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), filter 0.8s;
