@@ -15,9 +15,9 @@
     "description": "CHROMATOPIA는 무지개에 부여된 사회적·단일적 색의 기준을 해체하고 재정립하며, 익숙한 색채의 기준을 새로운 시각으로 전환한다. 무지개의 프로세스 변화를 공간적 경험으로 풀어내어, 색각의 다양성을 이해하고 서로 다른 색채 경험이 공존하는 새로운 세계, ‘색의 유토피아’를 제안한다.",
     "sections": [
       {
-        "image": "/assets/projects/chromatopia/9.webp",
-        "title": "CHROMATOPIA",
-        "description": "정해진 색의 기준을 넘어 저마다 다른 시선과 감각으로 세상을 바라보고, 나만의 무지개를 발견한다. CHROMATOPIA는 서로 다른 색채 경험을 통해 우리가 가진 색의 세계를 새롭게 확장한다."
+        "image": "/assets/projects/chromatopia/1.webp",
+        "title": "건물 입구 및 카페",
+        "description": "전시의 시작점이 되는 로비 및 카페 공간으로, 일상과 전시를 연결하며 새로운 색각적 경험을 암시하는 도입 공간이다."
       },
       {
         "image": "/assets/projects/chromatopia/2.webp",
@@ -53,6 +53,11 @@
         "image": "/assets/projects/chromatopia/8.webp",
         "title": "갤러리 공간",
         "description": "색각이상 작가들의 작품 전시, 엔크로마의 브랜드 연혁, 스마트 태깅을 통한 자신의 스펙트럼 투영 등을 할 수 있는 공간이다."
+      },
+      {
+        "image": "/assets/projects/chromatopia/9.webp",
+        "title": "CHROMATOPIA",
+        "description": "정해진 색의 기준을 넘어 저마다 다른 시선과 감각으로 세상을 바라보고, 나만의 무지개를 발견한다. CHROMATOPIA는 서로 다른 색채 경험을 통해 우리가 가진 색의 세계를 새롭게 확장한다."
       }
     ]
   },
@@ -394,7 +399,7 @@
       {
         "image": "/assets/projects/ongeum/3.webp",
         "title": "로비",
-        "description": "탐색: 찰과"
+        "description": "탐색: 찰과 기록: 흔 사이의 공간으로, 킨츠키를 연상시키는 계단을 배치하였다."
       },
       {
         "image": "/assets/projects/ongeum/4.webp",
