@@ -467,7 +467,7 @@ h2 {
 }
 .visit-information {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.5fr) minmax(0, 1fr);
   justify-content: space-between;
   column-gap: clamp(42px, 4vw, 68px);
   row-gap: clamp(28px, 3vw, 48px);
