@@ -183,6 +183,11 @@
     "description": "물질의 긴장과 집중, 숨비소리의 해방과 전환, 불턱의 회복을 전시·체험·교육으로 이어지는 공간의 흐름으로 풀어낸다. 해녀의 삶과 지혜를 동시대적 감각으로 재해석하여, 그 가치를 직접 경험하고 이어가는 문화 공간을 제안한다.",
     "sections": [
       {
+        "image": "/assets/projects/sumbi/main.webp",
+        "title": "MAIN VIEW",
+        "description": "숨비광장은 해녀가 물질을 마친 뒤 내쉬는 숨비소리처럼, 방문객이 바다를 바라보며 잠시 숨을 고르고 머무르며 해녀의 시와 이야기를 접할 수 있는 공간이다."
+      },
+      {
         "image": "/assets/projects/sumbi/1.webp",
         "title": "로비",
         "description": "해녀 전시로 들어가기 전, 해녀의 삶과 문화에 대한 기본적인 정보를 접하고 잠시 머물며 휴식할 수 있는 전이 공간이다."
@@ -193,7 +198,7 @@
         "description": "바람의 변화와 파도의 높낮이를 직접 느끼며, 해녀가 자연의 변화를 감지하고 바다를 읽는 방식을 경험하는 공간이다."
       },
       {
-        "image": "/assets/projects/sumbi/3.webp",
+        "image": "/assets/projects/sumbi/5.webp",
         "title": "바다와의 약속",
         "description": "바닷속처럼 조성된 몰입형 전시를 통해 해녀가 지켜온 채취의 규칙과 바다의 생명을 보호하는 방식을 보여주며, 자연과 공존해온 해녀의 삶을 경험하는 공간이다."
       },
@@ -203,17 +208,17 @@
         "description": "해녀의 시선으로 바닷속을 따라 들어가며, 물질의 준비부터 잠수와 채취, 그리고 수면 위로 올라오는 순간까지의 과정을 서클비전 미디어에 담아낸다."
       },
       {
-        "image": "/assets/projects/sumbi/5.webp",
+        "image": "/assets/projects/sumbi/3.webp",
         "title": "바다를 기록하다",
         "description": "물질을 마친 해녀가 직접 기록한 일지를 통해 그날의 바다와 작업의 경험, 해녀의 삶을 들여다보는 공간이다."
       },
       {
-        "image": "/assets/projects/sumbi/6.webp",
+        "image": "/assets/projects/sumbi/7.webp",
         "title": "숨비소리",
         "description": "해녀가 물 밖으로 나와 터뜨리는 생명의 첫 숨인 숨비소리를 매개로, 자신의 호흡을 살피고 타인의 숨소리에 귀를 기울이며 서로의 안녕을 확인하는 공간이다."
       },
       {
-        "image": "/assets/projects/sumbi/7.webp",
+        "image": "/assets/projects/sumbi/6.webp",
         "title": "숨비 배움터",
         "description": "해녀학교의 전문적인 입문·양성 교육부터 일반 관 광객을 위한 체험 프로그램까지 폭넓게 운영하며, 해녀 고유의 물질 기술과 안전 수칙을 배우고 전통 어구인 테왁을 직접 제작하며 해녀의 기술과 문화 를 함께 경험하는 교육·체험 공간이다."
       },
