@@ -469,7 +469,8 @@ h2 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
   justify-content: space-between;
-  gap: clamp(20px, 2.4vw, 40px);
+  column-gap: clamp(42px, 4vw, 68px);
+  row-gap: clamp(28px, 3vw, 48px);
   align-items: start;
   width: 100%;
   margin: clamp(46px, 5vw, 72px) auto 0;
@@ -795,7 +796,7 @@ footer a {
 }
 
 .floor-plan-card:nth-child(2) {
-  padding-left: clamp(18px, 2vw, 34px);
+  padding-left: 0;
   border-left: 1px solid #cbd8e9;
 }
 
@@ -805,7 +806,7 @@ footer a {
   align-items: end;
   gap: clamp(14px, 1.7vw, 26px);
   min-height: clamp(80px, 9vw, 132px);
-  margin-bottom: clamp(10px, 1vw, 16px);
+  margin-bottom: clamp(20px, 1.8vw, 28px);
 }
 
 .floor-plan-number {
