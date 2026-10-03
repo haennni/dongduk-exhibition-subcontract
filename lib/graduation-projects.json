@@ -277,36 +277,40 @@
       {
         "image": "/assets/projects/photosynthesis/1.webp",
         "title": "빛을 머금는 로비",
-        "description": "자연광과 식재가 스며드는 로비는 사람들이 잠시 머물고 서로 마주치는 열린 공간이다. 빛을 받아 에너지를 만드는 광합성처럼, 일과 휴식, 사람과 사람의 관계가 자연스럽게 이어진다."
+        "description": "자연광과 식재가 스며드는 로비는 사람들이 잠시 머물고 서로 마주치는 열린 공간. 빛을 받아 에너지를 만드는 광합성처럼, 일과 휴식, 사람과 사람의 관계가 자연스럽게 이어진다."
       },
       {
         "image": "/assets/projects/photosynthesis/2.webp",
-        "title": "몰입실",
-        "description": "안정적이고 정제된 환경 속에서 개인 작업과 몰입이 이루어지는 공간이다. 자연광과 외부 풍경은 남겨 두되 천장과 벽, 동선의 밀도를 조절해 시선이 분산되지 않도록 계획하였다."
+        "title": "카페 공간",
+        "description": "로비에서 이어지는 카페는 잠시 머무르며 감각을 전환하는 공간이다. 빛, 향, 풍경, 짧은 대화가 겹쳐지며 사용자는 이곳에서 긴장을 낮추고 다음 업무 흐름으로 자연스럽게 넘어가게 된다."
       },
       {
         "image": "/assets/projects/photosynthesis/3.webp",
-        "title": "오픈라운지",
-        "description": "업무 사이 편안하게 쉬며 사람들이 자연스럽게 마주치고 교류하는 열린 공간이다. 휴식과 우연한 만남, 가벼운 대화를 통해 새로운 관계와 아이디어가 만들어지는 코워킹 공간의 중심 라운지이다."
+        "title": "몰입실",
+        "description": "업무 공간은 보다 안정적이고 정제된 환경 속에서 개인 작업과 몰입이 이루어지는 구간이다. 자연광과 외부 풍경은 남겨 두되, 천장과 벽, 동선의 밀도를 조절해 시선이 분산되지 않도록 계획하였다."
       },
       {
         "image": "/assets/projects/photosynthesis/4.webp",
         "additionalImages": [
           "/assets/projects/photosynthesis/5.webp"
         ],
-        "title": "공유주방",
-        "description": "중앙의 오픈 키친을 중심으로 조리와 대화, 머무름이 자연스럽게 겹쳐지는 커뮤니티 공간이다."
+        "title": "오픈라운지",
+        "description": "업무 사이 편안하게 쉬며 자연스럽게 사람들이 마주치고 교류하는 열린 공간이다. 휴식과 우연한 만남, 가벼운 대화를 통해 서로의 생각과 에너지가 공유되고, 새로운 관계와 아이디어가 만들어지는 코워킹 공간의 중심 라운지이다."
       },
       {
         "image": "/assets/projects/photosynthesis/6.webp",
+        "title": "공유주방",
+        "description": "중앙의 오픈 키친을 중심으로 조리와 대화, 머무름이 자연스럽게 겹쳐 지며, 사용자는 이곳에서 감각적 자극을 받아 다시 일의 에너지로 전환하게 된다. 단순한 주방이 아니라, 광합성의 개념처럼 외부의 자극이 공동의 에너지로 바뀌는 커뮤니티의 중심 공간이다."
+      },
+      {
+        "image": "/assets/projects/photosynthesis/7.webp",
+        "title": "야외 정원",
+        "description": "코워킹 공간의 중심에 위치한 야외 커뮤니티 공간으로, 강연·독서 모임·워크숍·소규모 공연 등 다양한 프로그램이 열린다. 필요에 따라 자유롭게 변화하며 사람들의 교류와 새로운 활동을 만들어내는 열린 이벤트 공간이다."
+      },
+      {
+        "image": "/assets/projects/photosynthesis/8.webp",
         "title": "파사드",
-        "description": "건물을 감싸는 회전형 파사드는 빛의 방향과 시간에 따라 각도가 변화하며 내부로 유입되는 자연광을 조절한다."
-      },
-      {
-        "image": "/assets/projects/photosynthesis/7.webp"
-      },
-      {
-        "image": "/assets/projects/photosynthesis/8.webp"
+        "description": "건물을 감싸는 회전형 파사드는 빛의 방향과 시간에 따라 각도가 변화하며 내부로 유입되는 자연광을 조절한다. 움직이는 패널 사이로 빛과 그림자가 끊임없이 변화하며, 건물 자체가 자연의 변화에 반응하고 호흡하는 듯한 입면을 형성한다."
       }
     ]
   },
@@ -456,7 +460,7 @@
     "sections": [
       {
         "image": "/assets/projects/on-gil/1.webp",
-        "title": "온길",
+        "title": "전경",
         "description": "온(溫)길은 닫힌 시설에서 벗어나 세대와 세대가 어우러져 함께 하는 따뜻한 돌봄센터를 가졌다."
       },
       {
@@ -471,7 +475,7 @@
       },
       {
         "image": "/assets/projects/on-gil/4.webp",
-        "title": "3F공공 도서관",
+        "title": "3F 공공 도서관",
         "description": "외부인에게도 개방된 도서관으로 이용자들이 함께 둘러앉아 책을 읽거나 작은 세미나를 진행할 수 있다."
       },
       {
