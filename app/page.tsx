@@ -69,7 +69,7 @@ export default function Home() {
               ))}
             </div>
             <div className="hero-topline">
-              <span>47TH GRADUATION EXHIBITION</span>
+              <span>47TH GRADUATE EXHIBITION</span>
               <span>INTERIOR DESIGN, DONGDUK</span>
             </div>
             <div className="hero-title">

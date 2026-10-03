@@ -927,15 +927,18 @@ footer a {
   content: '';
   z-index: -1;
   position: absolute;
-  inset: 0;
+  top: 50%;
+  left: 50%;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   background: #dae6f5;
-  scale: 0.5;
+  transform: translate(-50%, -50%) scale(0.5);
   opacity: 0;
   transition: all 0.5s;
 }
 .instructor:hover:before {
-  scale: 1;
+  transform: translate(-50%, -50%) scale(1);
   opacity: 1;
 }
 .instructor small {
@@ -1492,8 +1495,8 @@ footer a {
   gap: 58px 32px;
 }
 .designers-page {
-  padding-left: 11%;
-  padding-right: 11%;
+  padding-left: 14%;
+  padding-right: 14%;
 }
 .designers-page .designer-grid {
   gap: 58px 26px;
