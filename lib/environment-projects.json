@@ -231,7 +231,7 @@
   },
   {
     "id": "yeon",
-    "title": "연,燃",
+    "title": "연, 燃",
     "subtitle": "씨랜드 참사 추모·화재안전 교육·연구 복합단지",
     "category": "environment",
     "number": "05",
@@ -245,8 +245,8 @@
     "sections": [
       {
         "image": "/assets/projects/yeon/1.webp",
-        "title": "연 통로",
-        "description": "연 통로는 추모관으로 향하는 전이 공간으로, 자욱하게 깔린 수증기와 흐릿한 시야를 통해 화재 당시의 상황을 간접적으로 경험하며 추모의 몰입감을 높인다."
+        "title": "연 추모관",
+        "description": "씨랜드 화재참사로 희생된 23명의 아이들과 어른들을 기억하고 추모하는 공간으로, 화재의 흔적을 상징하는 연기(煙)에서 출발해, 남겨진 사람들의 그리움 연(戀)으로 의미를 확장한다."
       },
       {
         "image": "/assets/projects/yeon/2.webp",
@@ -277,6 +277,16 @@
         "image": "/assets/projects/yeon/7.webp",
         "title": "방화기준 역사 아카이브",
         "description": "가연성 패널의 위험성과 방화기준 변천을 메쉬 천장, 연기 디스플레이, 레드 컬러로 시각화한 경각심 아카이브 공간이다."
+      },
+      {
+        "image": "/assets/projects/yeon/8.webp",
+        "title": "씨랜드 1999 기록관",
+        "description": "씨랜드 참사의 불법 가설 컨테이너를 건축적 전시 장치로 재해석하고, 구조적 결함과 관리 부실, 안전 기준 미비 등 사고 원인을 기록과 자료를 통해 살펴보는 아카이브 공간이다."
+      },
+      {
+        "image": "/assets/projects/yeon/9.webp",
+        "title": "YEON LAB",
+        "description": "마감재 전시를 중심으로 연구실 로비를 구성하고, 전반에 코안다 효과를 적용한 유기적인 공간 흐름을 구현한다."
       }
     ]
   },
