@@ -607,7 +607,14 @@ footer a {
     left: 6%;
     right: 6%;
     bottom: 32px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .hero-bottom-spacer {
+    display: none;
+  }
+  .hero-center-stack {
+    width: min(460px, 88vw);
+    justify-self: center;
   }
   .hero-bottom p {
     font-size: 11px;
@@ -616,7 +623,7 @@ footer a {
     display: none;
   }
   .scroll-link {
-    justify-self: end;
+    justify-self: center;
     font-size: 9px;
   }
   .hero-coordinate {
@@ -848,16 +855,12 @@ footer a {
 
 .floor-plan-card img {
   display: block;
-  width: 100%;
+  width: 98%;
   height: auto;
   margin: 0;
   object-fit: contain;
   mix-blend-mode: multiply;
   transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), filter 0.8s;
-}
-
-.floor-plan-card:first-child img {
-  width: 95%;
 }
 
 .floor-plan-card:hover img {

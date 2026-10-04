@@ -16,14 +16,14 @@
     "sections": [
       {
         "image": "/assets/projects/eco-blue-node/1.webp",
+        "additionalImages": [
+          "/assets/projects/eco-blue-node/2.webp"
+        ],
         "title": "RESIDENCE 1",
         "description": "AI 스마트 제어 시스템으로 투명한 패널과 다기능 스마트 창문 등을 관리하여 에너지를 절감해 스스로 에너지를 생산하는 신재생 주거형태이다."
       },
       {
-        "image": "/assets/projects/eco-blue-node/2.webp",
-        "additionalImages": [
-          "/assets/projects/eco-blue-node/3.webp"
-        ],
+        "image": "/assets/projects/eco-blue-node/3.webp",
         "title": "ALL DAY DINING",
         "description": "여수의 양식장 형태를 착안하여 필요한 채소를 직접 수확할 수 있는 스마트팜을 통합하였다."
       },
