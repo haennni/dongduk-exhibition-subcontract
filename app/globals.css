@@ -864,7 +864,8 @@ footer a {
 }
 
 .floor-plan-card:first-child img {
-  width: 117.6%;
+  width: 125%;
+  margin-left: -3.6%;
 }
 
 .floor-plan-card:hover img {
