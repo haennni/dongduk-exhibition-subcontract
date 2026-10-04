@@ -863,6 +863,10 @@ footer a {
   transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), filter 0.8s;
 }
 
+.floor-plan-card:first-child img {
+  width: 117.6%;
+}
+
 .floor-plan-card:hover img {
   transform: translateY(-8px) scale(1.025);
   filter: contrast(1.08);
