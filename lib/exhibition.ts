@@ -8,7 +8,7 @@ export const groups = [
  {name:'편집부',members:[['부장','강희슬'],['차장','박소윤'],['총무','김희나'],['부원','송유은'],['부원','안정연'],['부원','전솔빈'],['부원','주민재'],['부원','차지은']]}
 ];
 const designerEmails:Record<string,string>={
- '강희슬':'wdkhs@naver.com',
+ '강희슬':'_iwdkhs@naver.com',
  '권민서':'lily677640@naver.com',
  '김노하은':'haeun4872@gmail.com',
  '김미르':'alssm0709@gmail.com',
